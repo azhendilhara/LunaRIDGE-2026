@@ -1,3 +1,5 @@
+import {validRequest} from './utils/comparison';
+import {RecommendedMissions} from './components/RecommendedMissions';
 import {OpportunityFinder} from './components/OpportunityFinder';
 import {safeTransfer} from './utils/opportunity';
 import type {CandidateTransfer} from './utils/opportunity';
@@ -47,6 +49,7 @@ export const App: React.FC = () => {
   const [submitted, setSubmitted] = useState<AnalysisRequest | null>(null);
   const stale = !!result && submitted !== null && scientificScenarioKey(request) !== scientificScenarioKey(submitted);
   const response = stale ? null : result;
+  const [recordedExample,setRecordedExample]=useState<string|null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [backendConnected, setBackendConnected] = useState<boolean>(true);
@@ -103,6 +106,7 @@ export const App: React.FC = () => {
   const handleRunAnalysis = async (switchToOverview = false) => {
     const id = gate.current.begin();
     const snapshot = Object.freeze({ ...request });
+    setRecordedExample(null);
     setIsLoading(true);
     setErrorMessage(null);
     setResponse(null);
@@ -157,10 +161,12 @@ export const App: React.FC = () => {
   useEffect(()=>{if(activeTab==='finder')setFinderOpened(true);},[activeTab]);
   const openCandidate=(candidate:CandidateTransfer)=>{
     if(!safeTransfer(candidate))return;
+    setRecordedExample(null);
     gate.current.invalidate();setIsLoading(false);setErrorMessage(null);
     const snapshot=Object.freeze({...candidate.scenario});setRequest({...snapshot});setSubmitted(snapshot);setResponse(candidate.result);
     setAssessmentSeed({id:candidate.id,...candidate.settings});setMode('simple');setActiveTab('overview');
   };
+  const openExample=(candidate:CandidateTransfer)=>{openCandidate(candidate);setRecordedExample(candidate.name);setActiveTab('plan');};
   const compareCandidate=(candidate:CandidateTransfer)=>{
     if(!safeTransfer(candidate)||comparisonCount>=5)return;
     setIncomingCandidate(candidate);setActiveTab('compare');
@@ -191,17 +197,19 @@ export const App: React.FC = () => {
           </aside>
           <section className={`${step === 'plan' ? 'lg:col-span-8' : 'lg:col-span-12'} space-y-5 min-w-0`} aria-label="Mission workspace">
             {stale && <div role="status" className="notice">Your inputs changed. Previous results are hidden. Run analysis to calculate this scenario.</div>}
-            {errorMessage && <div role="alert" className="error-notice"><h2>Analysis unavailable</h2><p>{errorMessage}</p><p>No visibility estimate is shown. Missing terrain coverage is unknown, not zero visibility. Check the location, search radius or connection, then retry.</p></div>}
+            {errorMessage && <div role="alert" className="error-notice"><h2>Analysis unavailable</h2><p>{errorMessage}</p><button className="secondary-action mt-3" disabled={isLoading||!validRequest(request)} onClick={()=>handleRunAnalysis(true)}>Retry analysis</button></div>}
+            {recordedExample&&(step==='plan'||step==='results')&&<div className="notice" role="status"><strong>Saved evaluated example: {recordedExample}</strong><p>{stale?'Scientific inputs changed; the saved result cannot describe this new scenario.':'Showing recorded evidence, not a new live calculation.'}</p><div className="guided-actions">{step==='plan'&&<button className="secondary-action" disabled={stale||isLoading} onClick={()=>setActiveTab('overview')}>View saved results</button>}<button className="primary-action" disabled={isLoading} onClick={()=>handleRunAnalysis(true)}>Recompute live</button></div></div>}
             {isLoading && <div role="status" aria-live="polite" className="notice">Calculating the submitted scenario using NASA Horizons and LOLA terrain… You can keep exploring; changed inputs will need a new analysis.</div>}
             <div hidden={step !== 'explore'}>
               <div className="explore-layout"><div className="explore-map"><InteractiveLunarMap selectedLat={request.latitude} selectedLon={request.longitude} onSelectSite={handleMapSelect} /></div>
               <aside className="scenario-card explore-site"><span className="eyebrow">SELECT YOUR DESTINATION</span><h2>Where will you explore?</h2><p>Click the terrain map, choose a landmark marker, or use a preset below.</p><SitePicker request={request} onChange={setRequest} /><button className="primary-action w-full mt-5" onClick={() => setActiveTab('plan')}>Plan from this site →</button><p className="text-sm text-slate-400 mt-4">Next: choose UTC dates. No analysis runs until you request it.</p></aside></div>
             </div>
+            <div hidden={step!=='explore'}><RecommendedMissions active={step==='explore'} onPlan={()=>setActiveTab('plan')} onSearch={()=>setActiveTab('finder')} onOpen={openExample} onCompare={compareCandidate} comparisonFull={comparisonCount>=5}/></div>
             <div hidden={step !== 'plan'} className="planning-guide"><span className="eyebrow">PLAN MISSION</span><h2>Choose the window. Keep the science in view.</h2><p>Select your site and UTC dates in the mission panel, then run a real NASA-based analysis.</p><ol><li>Choose a map location or an illustrative preset.</li><li>Set start and end dates in UTC.</li><li>Analyze, then inspect the evaluated results and terrain limitations.</li></ol><p>Simple View uses the displayed mast and sampling settings. Switch to Engineering View to adjust them before submitting.</p><button className="secondary-action" onClick={() => setActiveTab('map')}>← Change location on the map</button></div>
             <div hidden={step !== 'results'} className="space-y-5">
               <div className="section-heading"><span className="eyebrow">RESULTS</span><h2>Your mission window</h2></div>
-              <MissionAssessment seed={assessmentSeed} submitted={submitted} draft={request} result={result} busy={isLoading} active={step==='results'} engineering={mode==='engineering'} onDates={()=>editScenario('date')} onSite={()=>editScenario('site')} onMast={()=>editScenario('mast')} />
-              {!response && !isLoading && <div className="empty-mission"><h3>Your scenario is ready to calculate</h3><p>Choose a location and UTC dates, then select Analyze Mission. Real computed results will appear here when data are available.</p><button className="primary-action" onClick={() => setActiveTab('plan')}>Plan a mission →</button></div>}
+              {!(errorMessage&&!result)&&<MissionAssessment seed={assessmentSeed} submitted={submitted} draft={request} result={result} busy={isLoading} active={step==='results'} engineering={mode==='engineering'} onDates={()=>editScenario('date')} onSite={()=>editScenario('site')} onMast={()=>editScenario('mast')} />}
+              {!response && !isLoading && !errorMessage && <div className="empty-mission"><h3>Your scenario is ready to calculate</h3><p>Choose a location and UTC dates, then select Analyze Mission. Real computed results will appear here when data are available.</p><button className="primary-action" onClick={() => setActiveTab('plan')}>Plan a mission →</button></div>}
               {response && !isLoading && <>
                 <ResultSummary result={response} radiusKm={submitted?.horizon_max_distance_km} engineering={mode==='engineering'} />
                 <TimelineBar earthComm={response.earth_comm} solarPower={response.solar_power} timeRange={response.time_range} compact={mode==='simple'} />

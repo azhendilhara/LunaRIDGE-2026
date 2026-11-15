@@ -7,3 +7,6 @@
 *.pdf binary
 # Recorded NASA bytes must keep their manifest hashes, including on Windows.
 /docs/validation-step13/** -text
+
+# Preserve checksum-bound static example response bytes across Windows checkouts.
+/frontend/public/examples/** -text

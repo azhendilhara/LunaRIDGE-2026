@@ -19,7 +19,7 @@ export function SimpleControls({request,onChange,onRun,loading}: {request: Analy
   </div></details>{(['start_time','stop_time'] as const).map((field,i)=><label key={field} className="block mt-4">{i===0?'Mission start':'Mission end'} · UTC<input data-scenario-field={i===0?'date':undefined} type="datetime-local" value={request[field].slice(0,16)} onInput={e=>onChange({...request,[field]:e.currentTarget.value})} onChange={e=>onChange({...request,[field]:e.target.value})}/></label>)}
   <p className="text-sm text-slate-400 mt-4">Mast: {request.observer_height_m ?? 2} m · Sampling: {request.step_size || '1h'}. Open Engineering View to adjust these settings.</p>
   {!valid && <p role="status" className="text-amber-200 mt-3">Use latitude −90 to −80°, longitude −180 to 360°, and an end date after the start.</p>}
-  <button className="primary-action w-full mt-5" disabled={!valid || loading} onClick={onRun}>{loading?'Calculating…':'Analyze Mission →'}</button></section>;
+  <button className="primary-action w-full mt-5" disabled={!valid || loading} aria-busy={loading} onClick={onRun}>{loading?'Calculating…':'Analyze Mission →'}</button></section>;
 }
 export function ResultSummary({result:r,radiusKm,engineering=true}: {result:AnalysisResponse;radiusKm?:number;engineering?:boolean}) {
   if (!r?.time_range || !r?.site) return <section className="result-summary"><MissionFinding result={r} /><p>Evaluated scenario metadata are unavailable. No site-specific interpretation can be shown.</p></section>;

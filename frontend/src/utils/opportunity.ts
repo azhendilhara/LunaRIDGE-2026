@@ -147,5 +147,5 @@ export function importEvaluatedCandidate(rows:ComparisonScenario[],transfer:Cand
  if(rows.length>=MAX_SCENARIOS)return {rows,error:'Comparison is full (5 scenarios). Remove one before adding this candidate.'};
  if(!safeTransfer(transfer))return {rows,error:'Candidate transfer is missing complete matching scenario provenance.'};
  const request=Object.freeze({...transfer.scenario});
- return {rows:[...rows,{...newScenario(id,transfer.name,request),submitted:request,result:transfer.result,status:'success' as const}],error:''};
+ return {rows:[...rows,{...newScenario(id,transfer.name,request),submitted:request,result:transfer.result,recordedExample:transfer.id.startsWith('example:'),status:'success' as const}],error:''};
 }

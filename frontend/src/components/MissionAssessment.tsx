@@ -1,3 +1,4 @@
+import {MissionContext} from './MissionContext';
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import profiles from '../../../shared/mission_profiles.json';
 import type {AnalysisRequest,AnalysisResponse} from '../types/api';
@@ -77,7 +78,8 @@ export function MissionAssessment({submitted,draft,result,busy=false,active=true
  };
  const unavailable:Assessment={label:'Insufficient Data',profile,thresholds,requirements:[],reason:reason || 'No verified assessment is available.',exportable:false};
  return <section className="mission-assessment" aria-label="Mission suitability assessment">
-  <div className="assessment-toolbar"><label>Assessment profile<select value={profile} onChange={e=>{const next=e.target.value as Profile;setProfile(next);setThresholds({...profiles[next]});}}>{Object.keys(profiles).map(name=><option key={name}>{name}</option>)}</select></label><button className="primary-action" disabled={!!reason || !assessment?.exportable || downloading || !active} aria-describedby="report-export-status" onClick={save}>{downloading?'Generating PDF…':'Download PDF'}</button></div>
+  {submitted&&<MissionContext request={submitted} profile={profile}/>}
+  <div className="assessment-toolbar"><label>Assessment profile<select value={profile} onChange={e=>{const next=e.target.value as Profile;setProfile(next);setThresholds({...profiles[next]});}}>{Object.keys(profiles).map(name=><option key={name}>{name}</option>)}</select></label><button className="primary-action" disabled={!!reason || !assessment?.exportable || downloading || !active} aria-describedby="report-export-status" aria-busy={downloading} onClick={save}>{downloading?'Generating PDF…':'Download PDF'}</button></div>
   <p className="profile-help">{PROFILE_HELP[profile]} <span>Switching profiles loads different requirements, not different NASA results.</span></p>
   {reason ? <AssessmentVerdict assessment={unavailable} /> : assessment ? <AssessmentVerdict assessment={assessment} /> : <p role="status">Checking geometric requirements against the submitted result…</p>}
   {assessment?.label==='Challenging' && !reason && <p className="profile-explanation">A verdict can stay Challenging across all profiles: changing priorities cannot improve visibility, and each profile still needs its priority requirements to pass.</p>}

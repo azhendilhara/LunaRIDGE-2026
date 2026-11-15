@@ -1,0 +1,416 @@
+{
+  "version": 1,
+  "evidence": "docs/SCIENTIFIC_VALIDATION_STEP13.md",
+  "requirements_note": "Illustrative Balanced requirements: Earth >=20%, sunlight >=50%, Earth interruption <=400 h, sunlight interruption <=24 h. Not NASA recommendations. Dates are recorded evaluated examples, not future mission recommendations.",
+  "items": [
+    {
+      "id": "haworth492",
+      "name": "Haworth area \u00b7 contact trade-off",
+      "scenario": {
+        "latitude": -87.87,
+        "longitude": -5.1,
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-26T12:00:00Z",
+        "step_size": "1h",
+        "observer_height_m": 2.0,
+        "horizon_azimuth_step_deg": 1.0,
+        "horizon_max_distance_km": 50.0
+      },
+      "settings": {
+        "profile": "Balanced",
+        "thresholds": {
+          "earth_min_percent": 20.0,
+          "sun_min_percent": 50.0,
+          "earth_max_blackout_hours": 400.0,
+          "sun_max_blackout_hours": 24.0
+        }
+      },
+      "assessment": {
+        "label": "Conditional",
+        "profile": "Balanced",
+        "thresholds": {
+          "earth_min_percent": 20.0,
+          "sun_min_percent": 50.0,
+          "earth_max_blackout_hours": 400.0,
+          "sun_max_blackout_hours": 24.0
+        },
+        "requirements": [
+          {
+            "key": "earth_visibility",
+            "target": "earth",
+            "title": "Earth center visibility",
+            "actual": 27.93,
+            "threshold": 20.0,
+            "relation": ">=",
+            "unit": "%",
+            "passed": true,
+            "primary": true
+          },
+          {
+            "key": "earth_blackout",
+            "target": "earth",
+            "title": "Earth longest center-blocked interval",
+            "actual": 354.567,
+            "threshold": 400.0,
+            "relation": "<=",
+            "unit": "h",
+            "passed": true,
+            "primary": true
+          },
+          {
+            "key": "sun_visibility",
+            "target": "sun",
+            "title": "Sun center visibility",
+            "actual": 0.0,
+            "threshold": 50.0,
+            "relation": ">=",
+            "unit": "%",
+            "passed": false,
+            "primary": true
+          },
+          {
+            "key": "sun_blackout",
+            "target": "sun",
+            "title": "Sun longest center-blocked interval",
+            "actual": 492.0,
+            "threshold": 24.0,
+            "relation": "<=",
+            "unit": "h",
+            "passed": false,
+            "primary": true
+          }
+        ],
+        "reason": "One target meets both requirements; the other does not.",
+        "exportable": true
+      },
+      "earth": {
+        "total_visible_hours": 137.433,
+        "total_blocked_hours": 354.567,
+        "total_interval_hours": 492.0,
+        "visibility_percentage": 27.93,
+        "full_disk_visible_hours": 102.8386,
+        "partial_limb_hours": 53.4623,
+        "fully_blocked_hours": 335.6991,
+        "window_count": 1,
+        "longest_window_hours": 137.433,
+        "longest_blackout_hours": 354.567,
+        "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+        "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+        "windows": [
+          {
+            "window_index": 1,
+            "start_time": "2026-11-20T18:34:01Z",
+            "end_time": "2026-11-26T12:00:00Z",
+            "duration_hours": 137.433,
+            "first_sample_time": "2026-11-20T19:00:00Z",
+            "last_sample_time": "2026-11-26T12:00:00Z",
+            "sample_count": 138,
+            "peak_elevation_deg": 8.3843,
+            "min_clearance_deg": 0.0202,
+            "max_clearance_deg": 1.7364
+          }
+        ]
+      },
+      "sun": {
+        "total_visible_hours": 0.0,
+        "total_blocked_hours": 492.0,
+        "total_interval_hours": 492.0,
+        "visibility_percentage": 0.0,
+        "full_disk_visible_hours": 0.0,
+        "partial_limb_hours": 0.0,
+        "fully_blocked_hours": 492.0,
+        "window_count": 0,
+        "longest_window_hours": 0.0,
+        "longest_blackout_hours": 492.0,
+        "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+        "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+        "windows": []
+      },
+      "evaluated": {
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-26T12:00:00Z",
+        "requested_start_time": "2026-11-06T00:00:00Z",
+        "requested_stop_time": "2026-11-26T12:00:00Z",
+        "step_size": "1h",
+        "total_points": 493,
+        "elapsed_hours": 492.0,
+        "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+      },
+      "source": {
+        "path": "docs/validation-step13/haworth492-analysis.json",
+        "sha256": "3b77886649a00b3035be335a4245e60fc3408b059e004f413299bf2caf7d6cdf",
+        "baseline_sha256": "08b35193c53755a2de076d9acdf15508f0d07c5e284b2d95c632b9cfeb8bcb38",
+        "dem_sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a",
+        "dem": "NASA LOLA LDEM_80S_80MPP_ADJ.TIF; 80 m; MOON_ME/DE421; sphere R=1737400 m",
+        "validation_scope": "Step 13 sampled scenario: independent Horizons references and separate geodesic/ECEF terrain checks; finite window and search radius only. Approximate area label, not a certified landing site.",
+        "adapter": "Exact baseline.json input bound as submitted_scenario for current transfer/assessment guards; archived response otherwise preserved.",
+        "response_url": "/examples/haworth492.json",
+        "response_sha256": "bc5c6ebe31fc4255dcb55218f4832d727d4050cbd386b8b35aaa36a5f9b98423"
+      }
+    },
+    {
+      "id": "nobile36",
+      "name": "Nobile area \u00b7 short-window constraints",
+      "scenario": {
+        "latitude": -85.25,
+        "longitude": 53.5,
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-07T12:00:00Z",
+        "step_size": "1h",
+        "observer_height_m": 2.0,
+        "horizon_azimuth_step_deg": 1.0,
+        "horizon_max_distance_km": 50.0
+      },
+      "settings": {
+        "profile": "Balanced",
+        "thresholds": {
+          "earth_min_percent": 20.0,
+          "sun_min_percent": 50.0,
+          "earth_max_blackout_hours": 400.0,
+          "sun_max_blackout_hours": 24.0
+        }
+      },
+      "assessment": {
+        "label": "Challenging",
+        "profile": "Balanced",
+        "thresholds": {
+          "earth_min_percent": 20.0,
+          "sun_min_percent": 50.0,
+          "earth_max_blackout_hours": 400.0,
+          "sun_max_blackout_hours": 24.0
+        },
+        "requirements": [
+          {
+            "key": "earth_visibility",
+            "target": "earth",
+            "title": "Earth center visibility",
+            "actual": 0.0,
+            "threshold": 20.0,
+            "relation": ">=",
+            "unit": "%",
+            "passed": false,
+            "primary": true
+          },
+          {
+            "key": "earth_blackout",
+            "target": "earth",
+            "title": "Earth longest center-blocked interval",
+            "actual": 36.0,
+            "threshold": 400.0,
+            "relation": "<=",
+            "unit": "h",
+            "passed": true,
+            "primary": true
+          },
+          {
+            "key": "sun_visibility",
+            "target": "sun",
+            "title": "Sun center visibility",
+            "actual": 0.0,
+            "threshold": 50.0,
+            "relation": ">=",
+            "unit": "%",
+            "passed": false,
+            "primary": true
+          },
+          {
+            "key": "sun_blackout",
+            "target": "sun",
+            "title": "Sun longest center-blocked interval",
+            "actual": 36.0,
+            "threshold": 24.0,
+            "relation": "<=",
+            "unit": "h",
+            "passed": false,
+            "primary": true
+          }
+        ],
+        "reason": "Neither target meets both configured requirements.",
+        "exportable": true
+      },
+      "earth": {
+        "total_visible_hours": 0.0,
+        "total_blocked_hours": 36.0,
+        "total_interval_hours": 36.0,
+        "visibility_percentage": 0.0,
+        "full_disk_visible_hours": 0.0,
+        "partial_limb_hours": 0.0,
+        "fully_blocked_hours": 36.0,
+        "window_count": 0,
+        "longest_window_hours": 0.0,
+        "longest_blackout_hours": 36.0,
+        "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+        "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+        "windows": []
+      },
+      "sun": {
+        "total_visible_hours": 0.0,
+        "total_blocked_hours": 36.0,
+        "total_interval_hours": 36.0,
+        "visibility_percentage": 0.0,
+        "full_disk_visible_hours": 0.0,
+        "partial_limb_hours": 0.0,
+        "fully_blocked_hours": 36.0,
+        "window_count": 0,
+        "longest_window_hours": 0.0,
+        "longest_blackout_hours": 36.0,
+        "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+        "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+        "windows": []
+      },
+      "evaluated": {
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-07T12:00:00Z",
+        "requested_start_time": "2026-11-06T00:00:00Z",
+        "requested_stop_time": "2026-11-07T12:00:00Z",
+        "step_size": "1h",
+        "total_points": 37,
+        "elapsed_hours": 36.0,
+        "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+      },
+      "source": {
+        "path": "docs/validation-step13/nobile36-analysis.json",
+        "sha256": "b40e50f743a1c1e4ce4916d63080aadbd96863bb58fe1afbafb10be9240d8224",
+        "baseline_sha256": "08b35193c53755a2de076d9acdf15508f0d07c5e284b2d95c632b9cfeb8bcb38",
+        "dem_sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a",
+        "dem": "NASA LOLA LDEM_80S_80MPP_ADJ.TIF; 80 m; MOON_ME/DE421; sphere R=1737400 m",
+        "validation_scope": "Step 13 sampled scenario: independent Horizons references and separate geodesic/ECEF terrain checks; finite window and search radius only. Approximate area label, not a certified landing site.",
+        "adapter": "Exact baseline.json input bound as submitted_scenario for current transfer/assessment guards; archived response otherwise preserved.",
+        "response_url": "/examples/nobile36.json",
+        "response_sha256": "0d85e489e027634b93e553e9d9ee4f90c20323649d550c690c74341a6021c526"
+      }
+    },
+    {
+      "id": "degerlache492",
+      "name": "de Gerlache area \u00b7 terrain constraints",
+      "scenario": {
+        "latitude": -88.5,
+        "longitude": -88.3,
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-26T12:00:00Z",
+        "step_size": "1h",
+        "observer_height_m": 2.0,
+        "horizon_azimuth_step_deg": 1.0,
+        "horizon_max_distance_km": 50.0
+      },
+      "settings": {
+        "profile": "Balanced",
+        "thresholds": {
+          "earth_min_percent": 20.0,
+          "sun_min_percent": 50.0,
+          "earth_max_blackout_hours": 400.0,
+          "sun_max_blackout_hours": 24.0
+        }
+      },
+      "assessment": {
+        "label": "Challenging",
+        "profile": "Balanced",
+        "thresholds": {
+          "earth_min_percent": 20.0,
+          "sun_min_percent": 50.0,
+          "earth_max_blackout_hours": 400.0,
+          "sun_max_blackout_hours": 24.0
+        },
+        "requirements": [
+          {
+            "key": "earth_visibility",
+            "target": "earth",
+            "title": "Earth center visibility",
+            "actual": 0.0,
+            "threshold": 20.0,
+            "relation": ">=",
+            "unit": "%",
+            "passed": false,
+            "primary": true
+          },
+          {
+            "key": "earth_blackout",
+            "target": "earth",
+            "title": "Earth longest center-blocked interval",
+            "actual": 492.0,
+            "threshold": 400.0,
+            "relation": "<=",
+            "unit": "h",
+            "passed": false,
+            "primary": true
+          },
+          {
+            "key": "sun_visibility",
+            "target": "sun",
+            "title": "Sun center visibility",
+            "actual": 0.0,
+            "threshold": 50.0,
+            "relation": ">=",
+            "unit": "%",
+            "passed": false,
+            "primary": true
+          },
+          {
+            "key": "sun_blackout",
+            "target": "sun",
+            "title": "Sun longest center-blocked interval",
+            "actual": 492.0,
+            "threshold": 24.0,
+            "relation": "<=",
+            "unit": "h",
+            "passed": false,
+            "primary": true
+          }
+        ],
+        "reason": "Neither target meets both configured requirements.",
+        "exportable": true
+      },
+      "earth": {
+        "total_visible_hours": 0.0,
+        "total_blocked_hours": 492.0,
+        "total_interval_hours": 492.0,
+        "visibility_percentage": 0.0,
+        "full_disk_visible_hours": 0.0,
+        "partial_limb_hours": 0.0,
+        "fully_blocked_hours": 492.0,
+        "window_count": 0,
+        "longest_window_hours": 0.0,
+        "longest_blackout_hours": 492.0,
+        "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+        "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+        "windows": []
+      },
+      "sun": {
+        "total_visible_hours": 0.0,
+        "total_blocked_hours": 492.0,
+        "total_interval_hours": 492.0,
+        "visibility_percentage": 0.0,
+        "full_disk_visible_hours": 0.0,
+        "partial_limb_hours": 0.0,
+        "fully_blocked_hours": 492.0,
+        "window_count": 0,
+        "longest_window_hours": 0.0,
+        "longest_blackout_hours": 492.0,
+        "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+        "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+        "windows": []
+      },
+      "evaluated": {
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-26T12:00:00Z",
+        "requested_start_time": "2026-11-06T00:00:00Z",
+        "requested_stop_time": "2026-11-26T12:00:00Z",
+        "step_size": "1h",
+        "total_points": 493,
+        "elapsed_hours": 492.0,
+        "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+      },
+      "source": {
+        "path": "docs/validation-step13/degerlache492-analysis.json",
+        "sha256": "3ba5b0df9fc1a18f833030ce1b60e23ceeb0aef05679b6ac50c604ce527649d4",
+        "baseline_sha256": "08b35193c53755a2de076d9acdf15508f0d07c5e284b2d95c632b9cfeb8bcb38",
+        "dem_sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a",
+        "dem": "NASA LOLA LDEM_80S_80MPP_ADJ.TIF; 80 m; MOON_ME/DE421; sphere R=1737400 m",
+        "validation_scope": "Step 13 sampled scenario: independent Horizons references and separate geodesic/ECEF terrain checks; finite window and search radius only. Approximate area label, not a certified landing site.",
+        "adapter": "Exact baseline.json input bound as submitted_scenario for current transfer/assessment guards; archived response otherwise preserved.",
+        "response_url": "/examples/degerlache492.json",
+        "response_sha256": "11c8b97ee9ed573661d0c9431ee71e83624a58d7c880b3617e2a3217b7c50a71"
+      }
+    }
+  ]
+}

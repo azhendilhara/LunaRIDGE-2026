@@ -6,7 +6,7 @@ import {usableSummary} from '../components/ScientificResults';
 export type ScenarioStatus='idle'|'queued'|'loading'|'success'|'error'|'incomplete'|'canceled';
 export interface ComparisonScenario {
  id:string;name:string;draft:AnalysisRequest;submitted:Readonly<AnalysisRequest>|null;
- result:AnalysisResponse|null;status:ScenarioStatus;error:string;
+ result:AnalysisResponse|null;status:ScenarioStatus;error:string;recordedExample?:boolean;
 }
 export const MAX_SCENARIOS=5;
 export const MIN_SCENARIOS=2;

@@ -83,3 +83,17 @@ Application code has **no assigned license**. Source/contributor rights must be 
 The pre-event Antigravity prototype remains preserved separately. Continued work stays in this working copy. [Provenance](docs/PROVENANCE.md) and the [prototype manifest](docs/prototype-manifest.json) retain the genuine history. Mentor guidance about early development is owner-reported; formal organizer approval and competition eligibility are not asserted. No fabricated historical commits or development dates.
 
 Stage records: [Step 14](docs/RESULTS_PRESENTATION_REPORT.md), [15A](docs/STEP15A_REPORT.md), [15A.1](docs/STEP15A1_REPORT.md), [15B](docs/STEP15B_REPORT.md), [15C](docs/STEP15C_REPORT.md). Older reports describe their own implementation stage; this README and Step 16A guide describe current release configuration.
+
+## Guided examples and simpler comparison
+
+Explore Moon now includes **Discover Recommended Mission Opportunities**: inspect evaluated examples, plan your own mission or open the bounded Finder. The three examples come only from saved, hash-checked Step 13 evidence. They show real constraints; none meets all illustrative requirements. Approximate area names are not certified landing sites, and the dates/thresholds are not NASA recommendations.
+
+Opening an example verifies its response checksum and transfers exact inputs/results into Planner or Compare. **Recompute live** is explicit; homepage visits do not trigger NASA ephemeris requests. Compare applies its shared requirements, so a verdict can differ from the catalog without any change to NASA results. Simple View shows compact bars/verdicts with collapsed editors; detailed schedules, tables and charts remain in Engineering View.
+
+To reproduce the static catalog from project root (no network):
+
+```powershell
+backend\.venv\Scripts\python.exe scripts/build_example_catalog.py
+```
+
+The generator binds the separately recorded exact baseline inputs as current submitted-scenario provenance, without modifying original evidence or scientific result fields. Git attributes preserve checksum-bound JSON bytes across checkouts. See [verification, changed files and limitations](docs/GUIDED_MISSION_UX_REPORT.md).
