@@ -1,0 +1,89 @@
+{
+  "nobile36": {
+    "method": "spherical forward geodesic, independently sampled raster, exact radial dot-product angles",
+    "max_abs_skyline_difference_deg": 0.230103103868891,
+    "rms_difference_deg": 0.018601727633553986,
+    "cardinal_skyline_deg": {
+      "0": 1.695944251278602,
+      "90": -1.4906525305753016,
+      "180": 2.3693132174148386,
+      "270": 7.532628580611616
+    },
+    "independent_target_diagnostics": {
+      "earth": {
+        "clearance_range_deg": [
+          -10.377821015878006,
+          -8.87511019178071
+        ],
+        "visible_sample_count": 0,
+        "independent_visible_hours": 0.0
+      },
+      "sun": {
+        "clearance_range_deg": [
+          -5.548113217427485,
+          -2.637481866830138
+        ],
+        "visible_sample_count": 0,
+        "independent_visible_hours": 0.0
+      }
+    }
+  },
+  "degerlache492": {
+    "method": "spherical forward geodesic, independently sampled raster, exact radial dot-product angles",
+    "max_abs_skyline_difference_deg": 0.024202049265010572,
+    "rms_difference_deg": 0.003056785635715324,
+    "cardinal_skyline_deg": {
+      "0": 3.8652503094031005,
+      "90": 8.846630374460883,
+      "180": 10.722171107793406,
+      "270": 3.863650734675299
+    },
+    "independent_target_diagnostics": {
+      "earth": {
+        "clearance_range_deg": [
+          -15.665052672548223,
+          -2.3667456959639317
+        ],
+        "visible_sample_count": 0,
+        "independent_visible_hours": 0.0
+      },
+      "sun": {
+        "clearance_range_deg": [
+          -16.472164045740435,
+          -1.3471406978052478
+        ],
+        "visible_sample_count": 0,
+        "independent_visible_hours": 0.0
+      }
+    }
+  },
+  "haworth492": {
+    "method": "spherical forward geodesic, independently sampled raster, exact radial dot-product angles",
+    "max_abs_skyline_difference_deg": 0.041367449932634415,
+    "rms_difference_deg": 0.0072065741374911455,
+    "cardinal_skyline_deg": {
+      "0": 6.626668443537489,
+      "90": 5.411133802244706,
+      "180": 8.805457991262282,
+      "270": 8.665265528427812
+    },
+    "independent_target_diagnostics": {
+      "earth": {
+        "clearance_range_deg": [
+          -11.514584045108727,
+          1.7359122589580354
+        ],
+        "visible_sample_count": 138,
+        "independent_visible_hours": 137.43197694577776
+      },
+      "sun": {
+        "clearance_range_deg": [
+          -11.179782442489241,
+          -1.8314873486871148
+        ],
+        "visible_sample_count": 0,
+        "independent_visible_hours": 0.0
+      }
+    }
+  }
+}

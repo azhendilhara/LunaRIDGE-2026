@@ -1,0 +1,5 @@
+{
+  "Solar Priority": {"earth_min_percent":20,"sun_min_percent":70,"earth_max_blackout_hours":72,"sun_max_blackout_hours":12},
+  "Communication Priority": {"earth_min_percent":70,"sun_min_percent":20,"earth_max_blackout_hours":12,"sun_max_blackout_hours":72},
+  "Balanced": {"earth_min_percent":50,"sun_min_percent":50,"earth_max_blackout_hours":24,"sun_max_blackout_hours":24}
+}

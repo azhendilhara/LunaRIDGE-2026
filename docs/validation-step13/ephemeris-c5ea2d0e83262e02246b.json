@@ -1,0 +1,84 @@
+{
+  "request": {
+    "command": "10",
+    "latitude": -85.25,
+    "longitude": 53.5,
+    "altitude_km": 0.82802,
+    "start_time": "2026-11-06T00:00:00Z",
+    "stop_time": "2026-11-07T12:00:00Z",
+    "step_size": "6h"
+  },
+  "retrieved_utc": "2026-11-14T08:54:55.957327+00:00",
+  "records": [
+    {
+      "raw_time": "2026-Nov-06 00:00:00",
+      "timestamp": "2026-11-06T00:00:00Z",
+      "azimuth_deg": 170.701024,
+      "elevation_deg": -3.178755,
+      "altitude_deg": -3.178755,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:00:00",
+      "timestamp": "2026-11-06T06:00:00Z",
+      "azimuth_deg": 167.648445,
+      "elevation_deg": -3.128678,
+      "altitude_deg": -3.128678,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:00:00",
+      "timestamp": "2026-11-06T12:00:00Z",
+      "azimuth_deg": 164.596056,
+      "elevation_deg": -3.065493,
+      "altitude_deg": -3.065493,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:00:00",
+      "timestamp": "2026-11-06T18:00:00Z",
+      "azimuth_deg": 161.543961,
+      "elevation_deg": -2.989376,
+      "altitude_deg": -2.989376,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:00:00",
+      "timestamp": "2026-11-07T00:00:00Z",
+      "azimuth_deg": 158.492258,
+      "elevation_deg": -2.900544,
+      "altitude_deg": -2.900544,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:00:00",
+      "timestamp": "2026-11-07T06:00:00Z",
+      "azimuth_deg": 155.44104,
+      "elevation_deg": -2.799247,
+      "altitude_deg": -2.799247,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 12:00:00",
+      "timestamp": "2026-11-07T12:00:00Z",
+      "azimuth_deg": 152.39039,
+      "elevation_deg": -2.685773,
+      "altitude_deg": -2.685773,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    }
+  ]
+}

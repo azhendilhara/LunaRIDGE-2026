@@ -1,0 +1,31 @@
+# Preparation template only. Creating this service incurs hosting/storage costs.
+# Keep repository root as the root directory: backend needs ../shared and ../data.
+services:
+  - type: web
+    name: lunaridge-api
+    runtime: python
+    plan: "1c-2g"
+    numInstances: 1
+    buildCommand: "cd backend && pip install --require-hashes --only-binary=:all: -r requirements.lock"
+    startCommand: "cd backend && python serve.py"
+    healthCheckPath: /health
+    autoDeployTrigger: "off"
+    disk:
+      name: lunaridge-dem
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.18
+      - key: LUNARIDGE_ENV
+        value: production
+      - key: CORS_ORIGINS
+        sync: false
+      - key: NASA_USER_AGENT
+        sync: false
+      - key: DEM_PATH
+        value: /var/data/LDEM_80S_80MPP_ADJ.TIF
+      - key: DEM_STRATEGY
+        value: download
+      - key: WEB_CONCURRENCY
+        value: "1"

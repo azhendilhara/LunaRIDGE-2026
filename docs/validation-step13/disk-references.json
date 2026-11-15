@@ -1,0 +1,194 @@
+{
+  "nobile36": {
+    "earth": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'399'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'53.5,-85.25,0.82802'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-07 12:00:00'",
+        "STEP_SIZE": "'18h'",
+        "QUANTITIES": "'13'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'"
+      },
+      "values": [
+        {
+          "utc": "2026-Nov-06 00:00:00",
+          "angular_radius_deg": 0.944051388888889
+        },
+        {
+          "utc": "2026-Nov-06 18:00:00",
+          "angular_radius_deg": 0.9377930555555555
+        },
+        {
+          "utc": "2026-Nov-07 12:00:00",
+          "angular_radius_deg": 0.9317593055555556
+        }
+      ]
+    },
+    "sun": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'10'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'53.5,-85.25,0.82802'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-07 12:00:00'",
+        "STEP_SIZE": "'18h'",
+        "QUANTITIES": "'13'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'"
+      },
+      "values": [
+        {
+          "utc": "2026-Nov-06 00:00:00",
+          "angular_radius_deg": 0.2693011111111111
+        },
+        {
+          "utc": "2026-Nov-06 18:00:00",
+          "angular_radius_deg": 0.26941597222222224
+        },
+        {
+          "utc": "2026-Nov-07 12:00:00",
+          "angular_radius_deg": 0.26951583333333334
+        }
+      ]
+    }
+  },
+  "degerlache492": {
+    "earth": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'399'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-88.3,-88.5,-1.10141'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'13'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'"
+      },
+      "values": [
+        {
+          "utc": "2026-Nov-06 00:00:00",
+          "angular_radius_deg": 0.9438088888888889
+        },
+        {
+          "utc": "2026-Nov-16 06:00:00",
+          "angular_radius_deg": 0.9089665277777778
+        },
+        {
+          "utc": "2026-Nov-26 12:00:00",
+          "angular_radius_deg": 1.0164356944444446
+        }
+      ]
+    },
+    "sun": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'10'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-88.3,-88.5,-1.10141'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'13'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'"
+      },
+      "values": [
+        {
+          "utc": "2026-Nov-06 00:00:00",
+          "angular_radius_deg": 0.2693013888888889
+        },
+        {
+          "utc": "2026-Nov-16 06:00:00",
+          "angular_radius_deg": 0.26958125
+        },
+        {
+          "utc": "2026-Nov-26 12:00:00",
+          "angular_radius_deg": 0.2693930555555556
+        }
+      ]
+    }
+  },
+  "haworth492": {
+    "earth": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'399'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-5.1,-87.87,-3.48279'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'13'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'"
+      },
+      "values": [
+        {
+          "utc": "2026-Nov-06 00:00:00",
+          "angular_radius_deg": 0.9439708333333333
+        },
+        {
+          "utc": "2026-Nov-16 06:00:00",
+          "angular_radius_deg": 0.9091015277777778
+        },
+        {
+          "utc": "2026-Nov-26 12:00:00",
+          "angular_radius_deg": 1.0166143055555554
+        }
+      ]
+    },
+    "sun": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'10'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-5.1,-87.87,-3.48279'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'13'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'"
+      },
+      "values": [
+        {
+          "utc": "2026-Nov-06 00:00:00",
+          "angular_radius_deg": 0.26930125
+        },
+        {
+          "utc": "2026-Nov-16 06:00:00",
+          "angular_radius_deg": 0.2695813888888889
+        },
+        {
+          "utc": "2026-Nov-26 12:00:00",
+          "angular_radius_deg": 0.2693931944444445
+        }
+      ]
+    }
+  }
+}

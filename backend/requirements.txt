@@ -1,0 +1,4 @@
+# Local development/test installation. Production uses requirements.lock.
+--require-hashes
+--only-binary=:all:
+-r requirements-dev.lock

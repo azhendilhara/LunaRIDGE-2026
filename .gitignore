@@ -1,0 +1,63 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Frontend dependencies and generated files
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+coverage/
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+.aws/
+# Large externally sourced terrain; retain the small attributed map PNG
+/data/lunar_dem/*
+!/data/lunar_dem/README.md
+*.TIF.part
+*.tif.part
+# Logs and OS/editor state
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+/checkpoints/
+/tmp/pdfs/
+
+# Local release preparation, generated reports and unverified unused assets
+/tmp/
+/output/
+*.audit.json
+/docs/*-qa/*
+!/docs/*-qa/*.png
+!/docs/*-qa/*.jpg
+/frontend/src/assets/hero.png
+/frontend/src/assets/react.svg
+/frontend/src/assets/vite.svg
+*.sqlite*
+*.db
+*.kdbx
+*.keystore
+.netrc
+.npmrc
+id_rsa*
+id_ed25519*
+
+# Interrupted external-data transfers
+*.part

@@ -1,0 +1,3260 @@
+{
+  "production": {
+    "status": "success",
+    "observer": {
+      "latitude": -88.5,
+      "longitude": -88.3,
+      "ground_elevation_m": -1103.41,
+      "observer_height_m": 2.0,
+      "total_altitude_m": -1101.41
+    },
+    "azimuth_convention": "Clockwise from selenodetic North (0\u00b0 = N, 90\u00b0 = E, 180\u00b0 = S, 270\u00b0 = W)",
+    "reference_frame": "MOON_ME (LOLA Polar Stereographic, R=1737.4 km)",
+    "dem_source": "NASA LOLA LDEM_80S_80MPP_ADJ (80 m/pixel)",
+    "count": 360,
+    "profile": [
+      {
+        "azimuth_deg": 0.0,
+        "horizon_elevation_deg": 3.8653,
+        "obstacle_distance_m": 14960.0,
+        "obstacle_latitude": -88.00677,
+        "obstacle_longitude": -88.3,
+        "obstacle_elevation_m": -26.28
+      },
+      {
+        "azimuth_deg": 1.0,
+        "horizon_elevation_deg": 3.6831,
+        "obstacle_distance_m": 14960.0,
+        "obstacle_latitude": -88.00682,
+        "obstacle_longitude": -88.05252,
+        "obstacle_elevation_m": -74.09
+      },
+      {
+        "azimuth_deg": 2.0,
+        "horizon_elevation_deg": 3.4944,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -87.9859,
+        "obstacle_longitude": -87.7893,
+        "obstacle_elevation_m": -78.83
+      },
+      {
+        "azimuth_deg": 3.0,
+        "horizon_elevation_deg": 3.4244,
+        "obstacle_distance_m": 15280.0,
+        "obstacle_latitude": -87.99673,
+        "obstacle_longitude": -87.54578,
+        "obstacle_elevation_m": -119.97
+      },
+      {
+        "azimuth_deg": 4.0,
+        "horizon_elevation_deg": 3.5194,
+        "obstacle_distance_m": 15120.0,
+        "obstacle_latitude": -88.0024,
+        "obstacle_longitude": -87.30241,
+        "obstacle_elevation_m": -105.77
+      },
+      {
+        "azimuth_deg": 5.0,
+        "horizon_elevation_deg": 3.6531,
+        "obstacle_distance_m": 14720.0,
+        "obstacle_latitude": -88.01607,
+        "obstacle_longitude": -87.07816,
+        "obstacle_elevation_m": -99.31
+      },
+      {
+        "azimuth_deg": 6.0,
+        "horizon_elevation_deg": 3.6893,
+        "obstacle_distance_m": 14960.0,
+        "obstacle_latitude": -88.0088,
+        "obstacle_longitude": -86.81611,
+        "obstacle_elevation_m": -72.46
+      },
+      {
+        "azimuth_deg": 7.0,
+        "horizon_elevation_deg": 3.6981,
+        "obstacle_distance_m": 14880.0,
+        "obstacle_latitude": -88.01216,
+        "obstacle_longitude": -86.57621,
+        "obstacle_elevation_m": -76.0
+      },
+      {
+        "azimuth_deg": 8.0,
+        "horizon_elevation_deg": 3.6791,
+        "obstacle_distance_m": 15040.0,
+        "obstacle_latitude": -88.00776,
+        "obstacle_longitude": -86.31459,
+        "obstacle_elevation_m": -69.29
+      },
+      {
+        "azimuth_deg": 9.0,
+        "horizon_elevation_deg": 3.7027,
+        "obstacle_distance_m": 13760.0,
+        "obstacle_latitude": -88.05062,
+        "obstacle_longitude": -86.21333,
+        "obstacle_elevation_m": -156.55
+      },
+      {
+        "azimuth_deg": 10.0,
+        "horizon_elevation_deg": 3.7449,
+        "obstacle_distance_m": 14480.0,
+        "obstacle_latitude": -88.0281,
+        "obstacle_longitude": -85.89018,
+        "obstacle_elevation_m": -93.35
+      },
+      {
+        "azimuth_deg": 11.0,
+        "horizon_elevation_deg": 3.8552,
+        "obstacle_distance_m": 14320.0,
+        "obstacle_latitude": -88.03447,
+        "obstacle_longitude": -85.67265,
+        "obstacle_elevation_m": -77.47
+      },
+      {
+        "azimuth_deg": 12.0,
+        "horizon_elevation_deg": 3.8397,
+        "obstacle_distance_m": 14960.0,
+        "obstacle_latitude": -88.01489,
+        "obstacle_longitude": -85.33843,
+        "obstacle_elevation_m": -32.98
+      },
+      {
+        "azimuth_deg": 13.0,
+        "horizon_elevation_deg": 3.8569,
+        "obstacle_distance_m": 13760.0,
+        "obstacle_latitude": -88.05527,
+        "obstacle_longitude": -85.29149,
+        "obstacle_elevation_m": -119.33
+      },
+      {
+        "azimuth_deg": 14.0,
+        "horizon_elevation_deg": 3.8819,
+        "obstacle_distance_m": 13600.0,
+        "obstacle_latitude": -88.06188,
+        "obstacle_longitude": -85.09103,
+        "obstacle_elevation_m": -125.43
+      },
+      {
+        "azimuth_deg": 15.0,
+        "horizon_elevation_deg": 3.9135,
+        "obstacle_distance_m": 13680.0,
+        "obstacle_latitude": -88.06082,
+        "obstacle_longitude": -84.84832,
+        "obstacle_elevation_m": -111.79
+      },
+      {
+        "azimuth_deg": 16.0,
+        "horizon_elevation_deg": 3.9881,
+        "obstacle_distance_m": 14880.0,
+        "obstacle_latitude": -88.02377,
+        "obstacle_longitude": -84.37584,
+        "obstacle_elevation_m": -0.29
+      },
+      {
+        "azimuth_deg": 17.0,
+        "horizon_elevation_deg": 4.0647,
+        "obstacle_distance_m": 14800.0,
+        "obstacle_latitude": -88.02819,
+        "obstacle_longitude": -84.15032,
+        "obstacle_elevation_m": 13.33
+      },
+      {
+        "azimuth_deg": 18.0,
+        "horizon_elevation_deg": 4.0789,
+        "obstacle_distance_m": 14800.0,
+        "obstacle_latitude": -88.03014,
+        "obstacle_longitude": -83.90927,
+        "obstacle_elevation_m": 17.02
+      },
+      {
+        "azimuth_deg": 19.0,
+        "horizon_elevation_deg": 4.0571,
+        "obstacle_distance_m": 14880.0,
+        "obstacle_latitude": -88.02965,
+        "obstacle_longitude": -83.64971,
+        "obstacle_elevation_m": 17.71
+      },
+      {
+        "azimuth_deg": 20.0,
+        "horizon_elevation_deg": 4.1127,
+        "obstacle_distance_m": 14880.0,
+        "obstacle_latitude": -88.03182,
+        "obstacle_longitude": -83.40874,
+        "obstacle_elevation_m": 32.23
+      },
+      {
+        "azimuth_deg": 21.0,
+        "horizon_elevation_deg": 4.1314,
+        "obstacle_distance_m": 15120.0,
+        "obstacle_latitude": -88.0265,
+        "obstacle_longitude": -83.10554,
+        "obstacle_elevation_m": 56.54
+      },
+      {
+        "azimuth_deg": 22.0,
+        "horizon_elevation_deg": 4.0981,
+        "obstacle_distance_m": 14880.0,
+        "obstacle_latitude": -88.0365,
+        "obstacle_longitude": -82.9286,
+        "obstacle_elevation_m": 28.43
+      },
+      {
+        "azimuth_deg": 23.0,
+        "horizon_elevation_deg": 4.0932,
+        "obstacle_distance_m": 14240.0,
+        "obstacle_latitude": -88.05913,
+        "obstacle_longitude": -82.87568,
+        "obstacle_elevation_m": -24.05
+      },
+      {
+        "azimuth_deg": 24.0,
+        "horizon_elevation_deg": 4.1006,
+        "obstacle_distance_m": 14000.0,
+        "obstacle_latitude": -88.06917,
+        "obstacle_longitude": -82.7193,
+        "obstacle_elevation_m": -41.36
+      },
+      {
+        "azimuth_deg": 25.0,
+        "horizon_elevation_deg": 4.0566,
+        "obstacle_distance_m": 14080.0,
+        "obstacle_latitude": -88.06928,
+        "obstacle_longitude": -82.46709,
+        "obstacle_elevation_m": -45.84
+      },
+      {
+        "azimuth_deg": 26.0,
+        "horizon_elevation_deg": 4.0114,
+        "obstacle_distance_m": 14000.0,
+        "obstacle_latitude": -88.07447,
+        "obstacle_longitude": -82.2671,
+        "obstacle_elevation_m": -63.27
+      },
+      {
+        "azimuth_deg": 27.0,
+        "horizon_elevation_deg": 3.9761,
+        "obstacle_distance_m": 13840.0,
+        "obstacle_latitude": -88.0822,
+        "obstacle_longitude": -82.09798,
+        "obstacle_elevation_m": -84.37
+      },
+      {
+        "azimuth_deg": 28.0,
+        "horizon_elevation_deg": 3.9372,
+        "obstacle_distance_m": 14000.0,
+        "obstacle_latitude": -88.08017,
+        "obstacle_longitude": -81.81804,
+        "obstacle_elevation_m": -81.51
+      },
+      {
+        "azimuth_deg": 29.0,
+        "horizon_elevation_deg": 3.8925,
+        "obstacle_distance_m": 14080.0,
+        "obstacle_latitude": -88.08074,
+        "obstacle_longitude": -81.56489,
+        "obstacle_elevation_m": -86.4
+      },
+      {
+        "azimuth_deg": 30.0,
+        "horizon_elevation_deg": 3.7979,
+        "obstacle_distance_m": 14080.0,
+        "obstacle_latitude": -88.08386,
+        "obstacle_longitude": -81.34146,
+        "obstacle_elevation_m": -109.77
+      },
+      {
+        "azimuth_deg": 31.0,
+        "horizon_elevation_deg": 3.6827,
+        "obstacle_distance_m": 15120.0,
+        "obstacle_latitude": -88.05566,
+        "obstacle_longitude": -80.71084,
+        "obstacle_elevation_m": -62.49
+      },
+      {
+        "azimuth_deg": 32.0,
+        "horizon_elevation_deg": 3.605,
+        "obstacle_distance_m": 15360.0,
+        "obstacle_latitude": -88.05195,
+        "obstacle_longitude": -80.38067,
+        "obstacle_elevation_m": -65.84
+      },
+      {
+        "azimuth_deg": 33.0,
+        "horizon_elevation_deg": 3.5442,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.05322,
+        "obstacle_longitude": -80.11117,
+        "obstacle_elevation_m": -76.56
+      },
+      {
+        "azimuth_deg": 34.0,
+        "horizon_elevation_deg": 3.5452,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.04986,
+        "obstacle_longitude": -79.77392,
+        "obstacle_elevation_m": -59.27
+      },
+      {
+        "azimuth_deg": 35.0,
+        "horizon_elevation_deg": 3.61,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -88.04432,
+        "obstacle_longitude": -79.39844,
+        "obstacle_elevation_m": -18.32
+      },
+      {
+        "azimuth_deg": 36.0,
+        "horizon_elevation_deg": 3.7512,
+        "obstacle_distance_m": 16240.0,
+        "obstacle_latitude": -88.04137,
+        "obstacle_longitude": -79.05212,
+        "obstacle_elevation_m": 39.26
+      },
+      {
+        "azimuth_deg": 37.0,
+        "horizon_elevation_deg": 3.8939,
+        "obstacle_distance_m": 16400.0,
+        "obstacle_latitude": -88.04095,
+        "obstacle_longitude": -78.73726,
+        "obstacle_elevation_m": 92.31
+      },
+      {
+        "azimuth_deg": 38.0,
+        "horizon_elevation_deg": 4.0473,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.0407,
+        "obstacle_longitude": -78.41995,
+        "obstacle_elevation_m": 149.33
+      },
+      {
+        "azimuth_deg": 39.0,
+        "horizon_elevation_deg": 4.1606,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.04756,
+        "obstacle_longitude": -78.21212,
+        "obstacle_elevation_m": 175.67
+      },
+      {
+        "azimuth_deg": 40.0,
+        "horizon_elevation_deg": 4.2712,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.0499,
+        "obstacle_longitude": -77.93072,
+        "obstacle_elevation_m": 214.43
+      },
+      {
+        "azimuth_deg": 41.0,
+        "horizon_elevation_deg": 4.3872,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.05694,
+        "obstacle_longitude": -77.7273,
+        "obstacle_elevation_m": 241.28
+      },
+      {
+        "azimuth_deg": 42.0,
+        "horizon_elevation_deg": 4.4423,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.0618,
+        "obstacle_longitude": -77.48679,
+        "obstacle_elevation_m": 257.23
+      },
+      {
+        "azimuth_deg": 43.0,
+        "horizon_elevation_deg": 4.4755,
+        "obstacle_distance_m": 16400.0,
+        "obstacle_latitude": -88.069,
+        "obstacle_longitude": -77.28901,
+        "obstacle_elevation_m": 259.81
+      },
+      {
+        "azimuth_deg": 44.0,
+        "horizon_elevation_deg": 4.5141,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.06962,
+        "obstacle_longitude": -76.96745,
+        "obstacle_elevation_m": 285.1
+      },
+      {
+        "azimuth_deg": 45.0,
+        "horizon_elevation_deg": 4.5743,
+        "obstacle_distance_m": 16640.0,
+        "obstacle_latitude": -88.07261,
+        "obstacle_longitude": -76.68682,
+        "obstacle_elevation_m": 309.82
+      },
+      {
+        "azimuth_deg": 46.0,
+        "horizon_elevation_deg": 4.6957,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.0823,
+        "obstacle_longitude": -76.53833,
+        "obstacle_elevation_m": 330.66
+      },
+      {
+        "azimuth_deg": 47.0,
+        "horizon_elevation_deg": 4.7739,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.08552,
+        "obstacle_longitude": -76.25952,
+        "obstacle_elevation_m": 360.79
+      },
+      {
+        "azimuth_deg": 48.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49823,
+        "obstacle_longitude": -88.2252,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 49.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49827,
+        "obstacle_longitude": -88.22404,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 50.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.4983,
+        "obstacle_longitude": -88.2229,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 51.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49834,
+        "obstacle_longitude": -88.22178,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 52.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49837,
+        "obstacle_longitude": -88.22068,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 53.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49841,
+        "obstacle_longitude": -88.21961,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 54.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49845,
+        "obstacle_longitude": -88.21856,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 55.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49849,
+        "obstacle_longitude": -88.21754,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 56.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49852,
+        "obstacle_longitude": -88.21654,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 57.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49856,
+        "obstacle_longitude": -88.21557,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 58.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.4986,
+        "obstacle_longitude": -88.21462,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 59.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49864,
+        "obstacle_longitude": -88.2137,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 60.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49868,
+        "obstacle_longitude": -88.21281,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 61.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49872,
+        "obstacle_longitude": -88.21194,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 62.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.49876,
+        "obstacle_longitude": -88.2111,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 63.0,
+        "horizon_elevation_deg": 5.6193,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.4988,
+        "obstacle_longitude": -88.21029,
+        "obstacle_elevation_m": -1093.55
+      },
+      {
+        "azimuth_deg": 64.0,
+        "horizon_elevation_deg": 5.8041,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49534,
+        "obstacle_longitude": -87.93884,
+        "obstacle_elevation_m": -1068.88
+      },
+      {
+        "azimuth_deg": 65.0,
+        "horizon_elevation_deg": 5.8041,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49551,
+        "obstacle_longitude": -87.93578,
+        "obstacle_elevation_m": -1068.88
+      },
+      {
+        "azimuth_deg": 66.0,
+        "horizon_elevation_deg": 5.8041,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49568,
+        "obstacle_longitude": -87.93283,
+        "obstacle_elevation_m": -1068.88
+      },
+      {
+        "azimuth_deg": 67.0,
+        "horizon_elevation_deg": 5.8041,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49585,
+        "obstacle_longitude": -87.93,
+        "obstacle_elevation_m": -1068.88
+      },
+      {
+        "azimuth_deg": 68.0,
+        "horizon_elevation_deg": 5.8041,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49602,
+        "obstacle_longitude": -87.92727,
+        "obstacle_elevation_m": -1068.88
+      },
+      {
+        "azimuth_deg": 69.0,
+        "horizon_elevation_deg": 6.4537,
+        "obstacle_distance_m": 400.0,
+        "obstacle_latitude": -88.49522,
+        "obstacle_longitude": -87.83112,
+        "obstacle_elevation_m": -1056.15
+      },
+      {
+        "azimuth_deg": 70.0,
+        "horizon_elevation_deg": 6.6096,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.49819,
+        "obstacle_longitude": -88.11085,
+        "obstacle_elevation_m": -1082.88
+      },
+      {
+        "azimuth_deg": 71.0,
+        "horizon_elevation_deg": 6.6096,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.49827,
+        "obstacle_longitude": -88.10966,
+        "obstacle_elevation_m": -1082.88
+      },
+      {
+        "azimuth_deg": 72.0,
+        "horizon_elevation_deg": 6.6096,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.49836,
+        "obstacle_longitude": -88.10854,
+        "obstacle_elevation_m": -1082.88
+      },
+      {
+        "azimuth_deg": 73.0,
+        "horizon_elevation_deg": 6.6759,
+        "obstacle_distance_m": 15920.0,
+        "obstacle_latitude": -88.27201,
+        "obstacle_longitude": -71.41045,
+        "obstacle_elevation_m": 835.81
+      },
+      {
+        "azimuth_deg": 74.0,
+        "horizon_elevation_deg": 6.8096,
+        "obstacle_distance_m": 16080.0,
+        "obstacle_latitude": -88.27677,
+        "obstacle_longitude": -71.09549,
+        "obstacle_elevation_m": 894.16
+      },
+      {
+        "azimuth_deg": 75.0,
+        "horizon_elevation_deg": 6.9428,
+        "obstacle_distance_m": 16160.0,
+        "obstacle_latitude": -88.28313,
+        "obstacle_longitude": -70.85413,
+        "obstacle_elevation_m": 942.65
+      },
+      {
+        "azimuth_deg": 76.0,
+        "horizon_elevation_deg": 7.5992,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.49807,
+        "obstacle_longitude": -88.00705,
+        "obstacle_elevation_m": -1069.4
+      },
+      {
+        "azimuth_deg": 77.0,
+        "horizon_elevation_deg": 7.5992,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.4982,
+        "obstacle_longitude": -88.0058,
+        "obstacle_elevation_m": -1069.4
+      },
+      {
+        "azimuth_deg": 78.0,
+        "horizon_elevation_deg": 7.5992,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.49833,
+        "obstacle_longitude": -88.00463,
+        "obstacle_elevation_m": -1069.4
+      },
+      {
+        "azimuth_deg": 79.0,
+        "horizon_elevation_deg": 8.018,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49795,
+        "obstacle_longitude": -87.90487,
+        "obstacle_elevation_m": -1056.34
+      },
+      {
+        "azimuth_deg": 80.0,
+        "horizon_elevation_deg": 8.018,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.49813,
+        "obstacle_longitude": -87.90355,
+        "obstacle_elevation_m": -1056.34
+      },
+      {
+        "azimuth_deg": 81.0,
+        "horizon_elevation_deg": 8.1018,
+        "obstacle_distance_m": 15920.0,
+        "obstacle_latitude": -88.3351,
+        "obstacle_longitude": -70.15432,
+        "obstacle_elevation_m": 1239.42
+      },
+      {
+        "azimuth_deg": 82.0,
+        "horizon_elevation_deg": 8.3291,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.34561,
+        "obstacle_longitude": -70.17604,
+        "obstacle_elevation_m": 1279.09
+      },
+      {
+        "azimuth_deg": 83.0,
+        "horizon_elevation_deg": 8.554,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.35378,
+        "obstacle_longitude": -70.03951,
+        "obstacle_elevation_m": 1342.45
+      },
+      {
+        "azimuth_deg": 84.0,
+        "horizon_elevation_deg": 8.697,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -88.36418,
+        "obstacle_longitude": -70.07494,
+        "obstacle_elevation_m": 1356.81
+      },
+      {
+        "azimuth_deg": 85.0,
+        "horizon_elevation_deg": 8.8218,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.36925,
+        "obstacle_longitude": -69.69249,
+        "obstacle_elevation_m": 1431.18
+      },
+      {
+        "azimuth_deg": 86.0,
+        "horizon_elevation_deg": 8.8935,
+        "obstacle_distance_m": 15920.0,
+        "obstacle_latitude": -88.3766,
+        "obstacle_longitude": -69.48026,
+        "obstacle_elevation_m": 1464.8
+      },
+      {
+        "azimuth_deg": 87.0,
+        "horizon_elevation_deg": 8.924,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.38606,
+        "obstacle_longitude": -69.44367,
+        "obstacle_elevation_m": 1460.19
+      },
+      {
+        "azimuth_deg": 88.0,
+        "horizon_elevation_deg": 8.918,
+        "obstacle_distance_m": 16080.0,
+        "obstacle_latitude": -88.3917,
+        "obstacle_longitude": -69.06193,
+        "obstacle_elevation_m": 1498.45
+      },
+      {
+        "azimuth_deg": 89.0,
+        "horizon_elevation_deg": 8.8907,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -88.40126,
+        "obstacle_longitude": -69.0332,
+        "obstacle_elevation_m": 1477.28
+      },
+      {
+        "azimuth_deg": 90.0,
+        "horizon_elevation_deg": 8.8466,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -88.40992,
+        "obstacle_longitude": -68.92098,
+        "obstacle_elevation_m": 1464.66
+      },
+      {
+        "azimuth_deg": 91.0,
+        "horizon_elevation_deg": 8.813,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.4203,
+        "obstacle_longitude": -68.99452,
+        "obstacle_elevation_m": 1428.67
+      },
+      {
+        "azimuth_deg": 92.0,
+        "horizon_elevation_deg": 8.8054,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.42897,
+        "obstacle_longitude": -68.89285,
+        "obstacle_elevation_m": 1426.52
+      },
+      {
+        "azimuth_deg": 93.0,
+        "horizon_elevation_deg": 8.9237,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -88.43619,
+        "obstacle_longitude": -68.61027,
+        "obstacle_elevation_m": 1486.76
+      },
+      {
+        "azimuth_deg": 94.0,
+        "horizon_elevation_deg": 9.7234,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.5007,
+        "obstacle_longitude": -87.89772,
+        "obstacle_elevation_m": -1046.58
+      },
+      {
+        "azimuth_deg": 95.0,
+        "horizon_elevation_deg": 10.9482,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.50067,
+        "obstacle_longitude": -87.99871,
+        "obstacle_elevation_m": -1055.0
+      },
+      {
+        "azimuth_deg": 96.0,
+        "horizon_elevation_deg": 10.9482,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.50081,
+        "obstacle_longitude": -87.99919,
+        "obstacle_elevation_m": -1055.0
+      },
+      {
+        "azimuth_deg": 97.0,
+        "horizon_elevation_deg": 10.9482,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.50094,
+        "obstacle_longitude": -87.99976,
+        "obstacle_elevation_m": -1055.0
+      },
+      {
+        "azimuth_deg": 98.0,
+        "horizon_elevation_deg": 10.9482,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.50108,
+        "obstacle_longitude": -88.00042,
+        "obstacle_elevation_m": -1055.0
+      },
+      {
+        "azimuth_deg": 99.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50082,
+        "obstacle_longitude": -88.10084,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 100.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50091,
+        "obstacle_longitude": -88.10141,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 101.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.501,
+        "obstacle_longitude": -88.10204,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 102.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50109,
+        "obstacle_longitude": -88.10273,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 103.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50118,
+        "obstacle_longitude": -88.10348,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 104.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50127,
+        "obstacle_longitude": -88.10429,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 105.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50136,
+        "obstacle_longitude": -88.10516,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 106.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50145,
+        "obstacle_longitude": -88.10609,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 107.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50153,
+        "obstacle_longitude": -88.10707,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 108.0,
+        "horizon_elevation_deg": 12.2758,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50162,
+        "obstacle_longitude": -88.10812,
+        "obstacle_elevation_m": -1066.61
+      },
+      {
+        "azimuth_deg": 109.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50086,
+        "obstacle_longitude": -88.20467,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 110.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5009,
+        "obstacle_longitude": -88.20525,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 111.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50094,
+        "obstacle_longitude": -88.20587,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 112.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50099,
+        "obstacle_longitude": -88.20651,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 113.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50103,
+        "obstacle_longitude": -88.20718,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 114.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50107,
+        "obstacle_longitude": -88.20788,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 115.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50111,
+        "obstacle_longitude": -88.20861,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 116.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50115,
+        "obstacle_longitude": -88.20936,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 117.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5012,
+        "obstacle_longitude": -88.21014,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 118.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50124,
+        "obstacle_longitude": -88.21095,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 119.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50128,
+        "obstacle_longitude": -88.21179,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 120.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50132,
+        "obstacle_longitude": -88.21266,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 121.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50136,
+        "obstacle_longitude": -88.21355,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 122.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5014,
+        "obstacle_longitude": -88.21446,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 123.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50144,
+        "obstacle_longitude": -88.21541,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 124.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50147,
+        "obstacle_longitude": -88.21638,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 125.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50151,
+        "obstacle_longitude": -88.21737,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 126.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50155,
+        "obstacle_longitude": -88.21839,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 127.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50159,
+        "obstacle_longitude": -88.21944,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 128.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50162,
+        "obstacle_longitude": -88.22051,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 129.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50166,
+        "obstacle_longitude": -88.2216,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 130.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50169,
+        "obstacle_longitude": -88.22272,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 131.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50346,
+        "obstacle_longitude": -88.14755,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 132.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50352,
+        "obstacle_longitude": -88.14988,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 133.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50359,
+        "obstacle_longitude": -88.15225,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 134.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50366,
+        "obstacle_longitude": -88.15467,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 135.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50373,
+        "obstacle_longitude": -88.15714,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 136.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50379,
+        "obstacle_longitude": -88.15965,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 137.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50385,
+        "obstacle_longitude": -88.1622,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 138.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50392,
+        "obstacle_longitude": -88.16479,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 139.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50398,
+        "obstacle_longitude": -88.16743,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 140.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50404,
+        "obstacle_longitude": -88.17011,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 141.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.5041,
+        "obstacle_longitude": -88.17282,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 142.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50415,
+        "obstacle_longitude": -88.17558,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 143.0,
+        "horizon_elevation_deg": 16.8216,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50421,
+        "obstacle_longitude": -88.17837,
+        "obstacle_elevation_m": -1053.06
+      },
+      {
+        "azimuth_deg": 144.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50213,
+        "obstacle_longitude": -88.24069,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 145.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50216,
+        "obstacle_longitude": -88.24212,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 146.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50219,
+        "obstacle_longitude": -88.24357,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 147.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50221,
+        "obstacle_longitude": -88.24504,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 148.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50224,
+        "obstacle_longitude": -88.24652,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 149.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50226,
+        "obstacle_longitude": -88.24802,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 150.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50228,
+        "obstacle_longitude": -88.24954,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 151.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50231,
+        "obstacle_longitude": -88.25107,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 152.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50233,
+        "obstacle_longitude": -88.25262,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 153.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50235,
+        "obstacle_longitude": -88.25418,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 154.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50237,
+        "obstacle_longitude": -88.25576,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 155.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50239,
+        "obstacle_longitude": -88.25735,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 156.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50241,
+        "obstacle_longitude": -88.25895,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 157.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50243,
+        "obstacle_longitude": -88.26056,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 158.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50245,
+        "obstacle_longitude": -88.26219,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 159.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50246,
+        "obstacle_longitude": -88.26383,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 160.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50248,
+        "obstacle_longitude": -88.26548,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 161.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50249,
+        "obstacle_longitude": -88.26714,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 162.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50251,
+        "obstacle_longitude": -88.26881,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 163.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50252,
+        "obstacle_longitude": -88.27049,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 164.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50254,
+        "obstacle_longitude": -88.27218,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 165.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50255,
+        "obstacle_longitude": -88.27388,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 166.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50256,
+        "obstacle_longitude": -88.27558,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 167.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50257,
+        "obstacle_longitude": -88.27729,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 168.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50258,
+        "obstacle_longitude": -88.27901,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 169.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50259,
+        "obstacle_longitude": -88.28074,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 170.0,
+        "horizon_elevation_deg": 16.2396,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5026,
+        "obstacle_longitude": -88.28247,
+        "obstacle_elevation_m": -1078.12
+      },
+      {
+        "azimuth_deg": 171.0,
+        "horizon_elevation_deg": 13.4598,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50521,
+        "obstacle_longitude": -88.26836,
+        "obstacle_elevation_m": -1063.14
+      },
+      {
+        "azimuth_deg": 172.0,
+        "horizon_elevation_deg": 13.4598,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50522,
+        "obstacle_longitude": -88.27185,
+        "obstacle_elevation_m": -1063.14
+      },
+      {
+        "azimuth_deg": 173.0,
+        "horizon_elevation_deg": 13.4598,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50524,
+        "obstacle_longitude": -88.27535,
+        "obstacle_elevation_m": -1063.14
+      },
+      {
+        "azimuth_deg": 174.0,
+        "horizon_elevation_deg": 13.4598,
+        "obstacle_distance_m": 160.0,
+        "obstacle_latitude": -88.50525,
+        "obstacle_longitude": -88.27886,
+        "obstacle_elevation_m": -1063.14
+      },
+      {
+        "azimuth_deg": 175.0,
+        "horizon_elevation_deg": 12.187,
+        "obstacle_distance_m": 240.0,
+        "obstacle_latitude": -88.50788,
+        "obstacle_longitude": -88.27351,
+        "obstacle_elevation_m": -1049.6
+      },
+      {
+        "azimuth_deg": 176.0,
+        "horizon_elevation_deg": 10.9847,
+        "obstacle_distance_m": 320.0,
+        "obstacle_latitude": -88.51053,
+        "obstacle_longitude": -88.27168,
+        "obstacle_elevation_m": -1039.31
+      },
+      {
+        "azimuth_deg": 177.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50263,
+        "obstacle_longitude": -88.29472,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 178.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50264,
+        "obstacle_longitude": -88.29648,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 179.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50264,
+        "obstacle_longitude": -88.29824,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 180.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50264,
+        "obstacle_longitude": -88.3,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 181.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50264,
+        "obstacle_longitude": -88.30176,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 182.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50264,
+        "obstacle_longitude": -88.30352,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 183.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50263,
+        "obstacle_longitude": -88.30528,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 184.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50263,
+        "obstacle_longitude": -88.30704,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 185.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50263,
+        "obstacle_longitude": -88.3088,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 186.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50262,
+        "obstacle_longitude": -88.31055,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 187.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50262,
+        "obstacle_longitude": -88.3123,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 188.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50261,
+        "obstacle_longitude": -88.31405,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 189.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50261,
+        "obstacle_longitude": -88.31579,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 190.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5026,
+        "obstacle_longitude": -88.31753,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 191.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50259,
+        "obstacle_longitude": -88.31926,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 192.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50258,
+        "obstacle_longitude": -88.32099,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 193.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50257,
+        "obstacle_longitude": -88.32271,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 194.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50256,
+        "obstacle_longitude": -88.32442,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 195.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50255,
+        "obstacle_longitude": -88.32612,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 196.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50254,
+        "obstacle_longitude": -88.32782,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 197.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50252,
+        "obstacle_longitude": -88.32951,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 198.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50251,
+        "obstacle_longitude": -88.33119,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 199.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50249,
+        "obstacle_longitude": -88.33286,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 200.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50248,
+        "obstacle_longitude": -88.33452,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 201.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50246,
+        "obstacle_longitude": -88.33617,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 202.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50245,
+        "obstacle_longitude": -88.33781,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 203.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50243,
+        "obstacle_longitude": -88.33944,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 204.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50241,
+        "obstacle_longitude": -88.34105,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 205.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50239,
+        "obstacle_longitude": -88.34265,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 206.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50237,
+        "obstacle_longitude": -88.34424,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 207.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50235,
+        "obstacle_longitude": -88.34582,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 208.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50233,
+        "obstacle_longitude": -88.34738,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 209.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50231,
+        "obstacle_longitude": -88.34893,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 210.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50228,
+        "obstacle_longitude": -88.35046,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 211.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50226,
+        "obstacle_longitude": -88.35198,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 212.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50224,
+        "obstacle_longitude": -88.35348,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 213.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50221,
+        "obstacle_longitude": -88.35496,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 214.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50219,
+        "obstacle_longitude": -88.35643,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 215.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50216,
+        "obstacle_longitude": -88.35788,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 216.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50213,
+        "obstacle_longitude": -88.35931,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 217.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50211,
+        "obstacle_longitude": -88.36073,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 218.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50208,
+        "obstacle_longitude": -88.36212,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 219.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50205,
+        "obstacle_longitude": -88.3635,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 220.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50202,
+        "obstacle_longitude": -88.36486,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 221.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50199,
+        "obstacle_longitude": -88.3662,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 222.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50196,
+        "obstacle_longitude": -88.36751,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 223.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50193,
+        "obstacle_longitude": -88.36881,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 224.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5019,
+        "obstacle_longitude": -88.37009,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 225.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50186,
+        "obstacle_longitude": -88.37134,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 226.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50183,
+        "obstacle_longitude": -88.37257,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 227.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5018,
+        "obstacle_longitude": -88.37378,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 228.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50176,
+        "obstacle_longitude": -88.37497,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 229.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50173,
+        "obstacle_longitude": -88.37614,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 230.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50169,
+        "obstacle_longitude": -88.37728,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 231.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50166,
+        "obstacle_longitude": -88.3784,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 232.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50162,
+        "obstacle_longitude": -88.37949,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 233.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50159,
+        "obstacle_longitude": -88.38056,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 234.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50155,
+        "obstacle_longitude": -88.38161,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 235.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50151,
+        "obstacle_longitude": -88.38263,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 236.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50147,
+        "obstacle_longitude": -88.38362,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 237.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.50144,
+        "obstacle_longitude": -88.38459,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 238.0,
+        "horizon_elevation_deg": 10.7246,
+        "obstacle_distance_m": 80.0,
+        "obstacle_latitude": -88.5014,
+        "obstacle_longitude": -88.38554,
+        "obstacle_elevation_m": -1086.27
+      },
+      {
+        "azimuth_deg": 239.0,
+        "horizon_elevation_deg": 4.0801,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.68753,
+        "obstacle_longitude": -107.7222,
+        "obstacle_elevation_m": 68.58
+      },
+      {
+        "azimuth_deg": 240.0,
+        "horizon_elevation_deg": 4.0468,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.67881,
+        "obstacle_longitude": -107.79625,
+        "obstacle_elevation_m": 59.56
+      },
+      {
+        "azimuth_deg": 241.0,
+        "horizon_elevation_deg": 3.9919,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.67005,
+        "obstacle_longitude": -107.86275,
+        "obstacle_elevation_m": 44.67
+      },
+      {
+        "azimuth_deg": 242.0,
+        "horizon_elevation_deg": 3.9194,
+        "obstacle_distance_m": 15520.0,
+        "obstacle_latitude": -88.66166,
+        "obstacle_longitude": -108.03357,
+        "obstacle_elevation_m": 31.25
+      },
+      {
+        "azimuth_deg": 243.0,
+        "horizon_elevation_deg": 3.9331,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.65409,
+        "obstacle_longitude": -108.53057,
+        "obstacle_elevation_m": 59.88
+      },
+      {
+        "azimuth_deg": 244.0,
+        "horizon_elevation_deg": 3.8999,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.64503,
+        "obstacle_longitude": -108.57267,
+        "obstacle_elevation_m": 50.66
+      },
+      {
+        "azimuth_deg": 245.0,
+        "horizon_elevation_deg": 3.8814,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.63551,
+        "obstacle_longitude": -108.38675,
+        "obstacle_elevation_m": 33.19
+      },
+      {
+        "azimuth_deg": 246.0,
+        "horizon_elevation_deg": 3.8412,
+        "obstacle_distance_m": 15920.0,
+        "obstacle_latitude": -88.62703,
+        "obstacle_longitude": -108.74524,
+        "obstacle_elevation_m": 40.43
+      },
+      {
+        "azimuth_deg": 247.0,
+        "horizon_elevation_deg": 3.7795,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -88.61799,
+        "obstacle_longitude": -108.87474,
+        "obstacle_elevation_m": 29.24
+      },
+      {
+        "azimuth_deg": 248.0,
+        "horizon_elevation_deg": 3.6919,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.60857,
+        "obstacle_longitude": -108.56169,
+        "obstacle_elevation_m": -13.04
+      },
+      {
+        "azimuth_deg": 249.0,
+        "horizon_elevation_deg": 3.5638,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -88.59943,
+        "obstacle_longitude": -108.35388,
+        "obstacle_elevation_m": -59.86
+      },
+      {
+        "azimuth_deg": 250.0,
+        "horizon_elevation_deg": 3.5333,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.59045,
+        "obstacle_longitude": -108.14225,
+        "obstacle_elevation_m": -79.51
+      },
+      {
+        "azimuth_deg": 251.0,
+        "horizon_elevation_deg": 3.5343,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.58156,
+        "obstacle_longitude": -108.14011,
+        "obstacle_elevation_m": -79.24
+      },
+      {
+        "azimuth_deg": 252.0,
+        "horizon_elevation_deg": 3.5437,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -88.5725,
+        "obstacle_longitude": -108.34343,
+        "obstacle_elevation_m": -65.34
+      },
+      {
+        "azimuth_deg": 253.0,
+        "horizon_elevation_deg": 3.5739,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.56324,
+        "obstacle_longitude": -108.53765,
+        "obstacle_elevation_m": -45.66
+      },
+      {
+        "azimuth_deg": 254.0,
+        "horizon_elevation_deg": 3.5516,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.55438,
+        "obstacle_longitude": -108.40994,
+        "obstacle_elevation_m": -57.5
+      },
+      {
+        "azimuth_deg": 255.0,
+        "horizon_elevation_deg": 3.433,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.54491,
+        "obstacle_longitude": -108.58831,
+        "obstacle_elevation_m": -79.03
+      },
+      {
+        "azimuth_deg": 256.0,
+        "horizon_elevation_deg": 3.3207,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -88.53668,
+        "obstacle_longitude": -108.2443,
+        "obstacle_elevation_m": -126.32
+      },
+      {
+        "azimuth_deg": 257.0,
+        "horizon_elevation_deg": 3.262,
+        "obstacle_distance_m": 15520.0,
+        "obstacle_latitude": -88.52808,
+        "obstacle_longitude": -108.10313,
+        "obstacle_elevation_m": -147.65
+      },
+      {
+        "azimuth_deg": 258.0,
+        "horizon_elevation_deg": 3.2896,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.51957,
+        "obstacle_longitude": -107.95803,
+        "obstacle_elevation_m": -145.44
+      },
+      {
+        "azimuth_deg": 259.0,
+        "horizon_elevation_deg": 3.3124,
+        "obstacle_distance_m": 15440.0,
+        "obstacle_latitude": -88.51078,
+        "obstacle_longitude": -107.90952,
+        "obstacle_elevation_m": -139.28
+      },
+      {
+        "azimuth_deg": 260.0,
+        "horizon_elevation_deg": 3.3957,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.50067,
+        "obstacle_longitude": -108.15395,
+        "obstacle_elevation_m": -100.33
+      },
+      {
+        "azimuth_deg": 261.0,
+        "horizon_elevation_deg": 3.4389,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.4913,
+        "obstacle_longitude": -108.19075,
+        "obstacle_elevation_m": -82.93
+      },
+      {
+        "azimuth_deg": 262.0,
+        "horizon_elevation_deg": 3.4671,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.48294,
+        "obstacle_longitude": -108.0256,
+        "obstacle_elevation_m": -80.72
+      },
+      {
+        "azimuth_deg": 263.0,
+        "horizon_elevation_deg": 3.5264,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.47296,
+        "obstacle_longitude": -108.147,
+        "obstacle_elevation_m": -53.11
+      },
+      {
+        "azimuth_deg": 264.0,
+        "horizon_elevation_deg": 3.5946,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -88.46409,
+        "obstacle_longitude": -108.06849,
+        "obstacle_elevation_m": -34.17
+      },
+      {
+        "azimuth_deg": 265.0,
+        "horizon_elevation_deg": 3.6534,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.45658,
+        "obstacle_longitude": -107.79568,
+        "obstacle_elevation_m": -29.53
+      },
+      {
+        "azimuth_deg": 266.0,
+        "horizon_elevation_deg": 3.7092,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.44786,
+        "obstacle_longitude": -107.70949,
+        "obstacle_elevation_m": -14.16
+      },
+      {
+        "azimuth_deg": 267.0,
+        "horizon_elevation_deg": 3.7516,
+        "obstacle_distance_m": 15520.0,
+        "obstacle_latitude": -88.44066,
+        "obstacle_longitude": -107.43263,
+        "obstacle_elevation_m": -14.46
+      },
+      {
+        "azimuth_deg": 268.0,
+        "horizon_elevation_deg": 3.8001,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -88.43132,
+        "obstacle_longitude": -107.43132,
+        "obstacle_elevation_m": 4.79
+      },
+      {
+        "azimuth_deg": 269.0,
+        "horizon_elevation_deg": 3.8328,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.42195,
+        "obstacle_longitude": -107.42361,
+        "obstacle_elevation_m": 19.81
+      },
+      {
+        "azimuth_deg": 270.0,
+        "horizon_elevation_deg": 3.8637,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.41253,
+        "obstacle_longitude": -107.40956,
+        "obstacle_elevation_m": 34.44
+      },
+      {
+        "azimuth_deg": 271.0,
+        "horizon_elevation_deg": 3.8628,
+        "obstacle_distance_m": 15920.0,
+        "obstacle_latitude": -88.40217,
+        "obstacle_longitude": -107.47806,
+        "obstacle_elevation_m": 46.46
+      },
+      {
+        "azimuth_deg": 272.0,
+        "horizon_elevation_deg": 3.8913,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -88.39549,
+        "obstacle_longitude": -107.18685,
+        "obstacle_elevation_m": 42.08
+      },
+      {
+        "azimuth_deg": 273.0,
+        "horizon_elevation_deg": 3.9162,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.38802,
+        "obstacle_longitude": -106.98227,
+        "obstacle_elevation_m": 42.77
+      },
+      {
+        "azimuth_deg": 274.0,
+        "horizon_elevation_deg": 3.911,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.37966,
+        "obstacle_longitude": -106.8618,
+        "obstacle_elevation_m": 41.33
+      },
+      {
+        "azimuth_deg": 275.0,
+        "horizon_elevation_deg": 3.8376,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -88.37135,
+        "obstacle_longitude": -106.73743,
+        "obstacle_elevation_m": 21.15
+      },
+      {
+        "azimuth_deg": 276.0,
+        "horizon_elevation_deg": 3.857,
+        "obstacle_distance_m": 16240.0,
+        "obstacle_latitude": -88.35541,
+        "obstacle_longitude": -107.19559,
+        "obstacle_elevation_m": 69.41
+      },
+      {
+        "azimuth_deg": 277.0,
+        "horizon_elevation_deg": 3.9406,
+        "obstacle_distance_m": 16240.0,
+        "obstacle_latitude": -88.34697,
+        "obstacle_longitude": -107.05665,
+        "obstacle_elevation_m": 93.23
+      },
+      {
+        "azimuth_deg": 278.0,
+        "horizon_elevation_deg": 4.0609,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -88.34211,
+        "obstacle_longitude": -106.66953,
+        "obstacle_elevation_m": 108.23
+      },
+      {
+        "azimuth_deg": 279.0,
+        "horizon_elevation_deg": 4.1644,
+        "obstacle_distance_m": 16240.0,
+        "obstacle_latitude": -88.33026,
+        "obstacle_longitude": -106.76789,
+        "obstacle_elevation_m": 157.03
+      },
+      {
+        "azimuth_deg": 280.0,
+        "horizon_elevation_deg": 4.2073,
+        "obstacle_distance_m": 16240.0,
+        "obstacle_latitude": -88.322,
+        "obstacle_longitude": -106.61822,
+        "obstacle_elevation_m": 169.25
+      },
+      {
+        "azimuth_deg": 281.0,
+        "horizon_elevation_deg": 4.21,
+        "obstacle_distance_m": 16400.0,
+        "obstacle_latitude": -88.31123,
+        "obstacle_longitude": -106.62144,
+        "obstacle_elevation_m": 183.32
+      },
+      {
+        "azimuth_deg": 282.0,
+        "horizon_elevation_deg": 4.1878,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.30171,
+        "obstacle_longitude": -106.53991,
+        "obstacle_elevation_m": 183.56
+      },
+      {
+        "azimuth_deg": 283.0,
+        "horizon_elevation_deg": 4.1484,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.29355,
+        "obstacle_longitude": -106.37714,
+        "obstacle_elevation_m": 172.16
+      },
+      {
+        "azimuth_deg": 284.0,
+        "horizon_elevation_deg": 4.0608,
+        "obstacle_distance_m": 16320.0,
+        "obstacle_latitude": -88.28824,
+        "obstacle_longitude": -106.06125,
+        "obstacle_elevation_m": 133.91
+      },
+      {
+        "azimuth_deg": 285.0,
+        "horizon_elevation_deg": 4.0232,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.27602,
+        "obstacle_longitude": -106.11581,
+        "obstacle_elevation_m": 142.33
+      },
+      {
+        "azimuth_deg": 286.0,
+        "horizon_elevation_deg": 3.9466,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.26805,
+        "obstacle_longitude": -105.94264,
+        "obstacle_elevation_m": 120.04
+      },
+      {
+        "azimuth_deg": 287.0,
+        "horizon_elevation_deg": 3.967,
+        "obstacle_distance_m": 16640.0,
+        "obstacle_latitude": -88.25866,
+        "obstacle_longitude": -105.83805,
+        "obstacle_elevation_m": 132.31
+      },
+      {
+        "azimuth_deg": 288.0,
+        "horizon_elevation_deg": 4.0027,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.25234,
+        "obstacle_longitude": -105.58742,
+        "obstacle_elevation_m": 136.36
+      },
+      {
+        "azimuth_deg": 289.0,
+        "horizon_elevation_deg": 3.9645,
+        "obstacle_distance_m": 16640.0,
+        "obstacle_latitude": -88.24304,
+        "obstacle_longitude": -105.47501,
+        "obstacle_elevation_m": 131.58
+      },
+      {
+        "azimuth_deg": 290.0,
+        "horizon_elevation_deg": 3.9041,
+        "obstacle_distance_m": 16720.0,
+        "obstacle_latitude": -88.23376,
+        "obstacle_longitude": -105.35765,
+        "obstacle_elevation_m": 120.17
+      },
+      {
+        "azimuth_deg": 291.0,
+        "horizon_elevation_deg": 3.918,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.22936,
+        "obstacle_longitude": -105.03341,
+        "obstacle_elevation_m": 111.74
+      },
+      {
+        "azimuth_deg": 292.0,
+        "horizon_elevation_deg": 3.9156,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.22187,
+        "obstacle_longitude": -104.84336,
+        "obstacle_elevation_m": 111.04
+      },
+      {
+        "azimuth_deg": 293.0,
+        "horizon_elevation_deg": 3.9522,
+        "obstacle_distance_m": 16640.0,
+        "obstacle_latitude": -88.21278,
+        "obstacle_longitude": -104.71612,
+        "obstacle_elevation_m": 127.96
+      },
+      {
+        "azimuth_deg": 294.0,
+        "horizon_elevation_deg": 3.9365,
+        "obstacle_distance_m": 16800.0,
+        "obstacle_latitude": -88.20202,
+        "obstacle_longitude": -104.6483,
+        "obstacle_elevation_m": 135.95
+      },
+      {
+        "azimuth_deg": 295.0,
+        "horizon_elevation_deg": 3.9051,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.19989,
+        "obstacle_longitude": -104.25791,
+        "obstacle_elevation_m": 108.0
+      },
+      {
+        "azimuth_deg": 296.0,
+        "horizon_elevation_deg": 3.8706,
+        "obstacle_distance_m": 16800.0,
+        "obstacle_latitude": -88.18746,
+        "obstacle_longitude": -104.24449,
+        "obstacle_elevation_m": 116.54
+      },
+      {
+        "azimuth_deg": 297.0,
+        "horizon_elevation_deg": 3.8246,
+        "obstacle_distance_m": 16320.0,
+        "obstacle_latitude": -88.19102,
+        "obstacle_longitude": -103.67083,
+        "obstacle_elevation_m": 66.28
+      },
+      {
+        "azimuth_deg": 298.0,
+        "horizon_elevation_deg": 3.8104,
+        "obstacle_distance_m": 16480.0,
+        "obstacle_latitude": -88.18051,
+        "obstacle_longitude": -103.59038,
+        "obstacle_elevation_m": 74.38
+      },
+      {
+        "azimuth_deg": 299.0,
+        "horizon_elevation_deg": 3.8158,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.17182,
+        "obstacle_longitude": -103.44386,
+        "obstacle_elevation_m": 82.04
+      },
+      {
+        "azimuth_deg": 300.0,
+        "horizon_elevation_deg": 3.8468,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.16502,
+        "obstacle_longitude": -103.23475,
+        "obstacle_elevation_m": 91.04
+      },
+      {
+        "azimuth_deg": 301.0,
+        "horizon_elevation_deg": 3.8527,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -88.15832,
+        "obstacle_longitude": -103.0235,
+        "obstacle_elevation_m": 92.77
+      },
+      {
+        "azimuth_deg": 302.0,
+        "horizon_elevation_deg": 3.8685,
+        "obstacle_distance_m": 16720.0,
+        "obstacle_latitude": -88.14789,
+        "obstacle_longitude": -102.92251,
+        "obstacle_elevation_m": 109.72
+      },
+      {
+        "azimuth_deg": 303.0,
+        "horizon_elevation_deg": 3.8844,
+        "obstacle_distance_m": 16880.0,
+        "obstacle_latitude": -88.13744,
+        "obstacle_longitude": -102.81498,
+        "obstacle_elevation_m": 126.81
+      },
+      {
+        "azimuth_deg": 304.0,
+        "horizon_elevation_deg": 3.867,
+        "obstacle_distance_m": 16880.0,
+        "obstacle_latitude": -88.13093,
+        "obstacle_longitude": -102.59362,
+        "obstacle_elevation_m": 121.64
+      },
+      {
+        "azimuth_deg": 305.0,
+        "horizon_elevation_deg": 3.8188,
+        "obstacle_distance_m": 16880.0,
+        "obstacle_latitude": -88.12452,
+        "obstacle_longitude": -102.37034,
+        "obstacle_elevation_m": 107.36
+      },
+      {
+        "azimuth_deg": 306.0,
+        "horizon_elevation_deg": 3.8196,
+        "obstacle_distance_m": 16880.0,
+        "obstacle_latitude": -88.1182,
+        "obstacle_longitude": -102.14519,
+        "obstacle_elevation_m": 107.62
+      },
+      {
+        "azimuth_deg": 307.0,
+        "horizon_elevation_deg": 3.7865,
+        "obstacle_distance_m": 16960.0,
+        "obstacle_latitude": -88.10995,
+        "obstacle_longitude": -101.96895,
+        "obstacle_elevation_m": 103.89
+      },
+      {
+        "azimuth_deg": 308.0,
+        "horizon_elevation_deg": 3.7899,
+        "obstacle_distance_m": 16880.0,
+        "obstacle_latitude": -88.10588,
+        "obstacle_longitude": -101.68945,
+        "obstacle_elevation_m": 98.81
+      },
+      {
+        "azimuth_deg": 309.0,
+        "horizon_elevation_deg": 3.803,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.0957,
+        "obstacle_longitude": -101.55635,
+        "obstacle_elevation_m": 114.9
+      },
+      {
+        "azimuth_deg": 310.0,
+        "horizon_elevation_deg": 3.8629,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.08975,
+        "obstacle_longitude": -101.32219,
+        "obstacle_elevation_m": 132.81
+      },
+      {
+        "azimuth_deg": 311.0,
+        "horizon_elevation_deg": 3.8882,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.08178,
+        "obstacle_longitude": -101.13295,
+        "obstacle_elevation_m": 146.59
+      },
+      {
+        "azimuth_deg": 312.0,
+        "horizon_elevation_deg": 3.949,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.07602,
+        "obstacle_longitude": -100.89458,
+        "obstacle_elevation_m": 164.87
+      },
+      {
+        "azimuth_deg": 313.0,
+        "horizon_elevation_deg": 3.9959,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.07253,
+        "obstacle_longitude": -100.61007,
+        "obstacle_elevation_m": 172.58
+      },
+      {
+        "azimuth_deg": 314.0,
+        "horizon_elevation_deg": 4.0547,
+        "obstacle_distance_m": 16960.0,
+        "obstacle_latitude": -88.06919,
+        "obstacle_longitude": -100.32593,
+        "obstacle_elevation_m": 183.7
+      },
+      {
+        "azimuth_deg": 315.0,
+        "horizon_elevation_deg": 4.1087,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.06159,
+        "obstacle_longitude": -100.12772,
+        "obstacle_elevation_m": 206.34
+      },
+      {
+        "azimuth_deg": 316.0,
+        "horizon_elevation_deg": 4.1595,
+        "obstacle_distance_m": 17200.0,
+        "obstacle_latitude": -88.05182,
+        "obstacle_longitude": -99.96756,
+        "obstacle_elevation_m": 234.74
+      },
+      {
+        "azimuth_deg": 317.0,
+        "horizon_elevation_deg": 4.2398,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.04883,
+        "obstacle_longitude": -99.68032,
+        "obstacle_elevation_m": 252.29
+      },
+      {
+        "azimuth_deg": 318.0,
+        "horizon_elevation_deg": 4.2641,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.04372,
+        "obstacle_longitude": -99.43328,
+        "obstacle_elevation_m": 259.58
+      },
+      {
+        "azimuth_deg": 319.0,
+        "horizon_elevation_deg": 4.3084,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.041,
+        "obstacle_longitude": -99.14622,
+        "obstacle_elevation_m": 266.11
+      },
+      {
+        "azimuth_deg": 320.0,
+        "horizon_elevation_deg": 4.3947,
+        "obstacle_distance_m": 17200.0,
+        "obstacle_latitude": -88.03154,
+        "obstacle_longitude": -98.97298,
+        "obstacle_elevation_m": 305.82
+      },
+      {
+        "azimuth_deg": 321.0,
+        "horizon_elevation_deg": 4.4656,
+        "obstacle_distance_m": 17200.0,
+        "obstacle_latitude": -88.02674,
+        "obstacle_longitude": -98.72117,
+        "obstacle_elevation_m": 327.26
+      },
+      {
+        "azimuth_deg": 322.0,
+        "horizon_elevation_deg": 4.5519,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.02673,
+        "obstacle_longitude": -98.39666,
+        "obstacle_elevation_m": 339.01
+      },
+      {
+        "azimuth_deg": 323.0,
+        "horizon_elevation_deg": 4.6253,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -88.0222,
+        "obstacle_longitude": -98.14444,
+        "obstacle_elevation_m": 361.01
+      },
+      {
+        "azimuth_deg": 324.0,
+        "horizon_elevation_deg": 4.6745,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.01542,
+        "obstacle_longitude": -97.92498,
+        "obstacle_elevation_m": 383.1
+      },
+      {
+        "azimuth_deg": 325.0,
+        "horizon_elevation_deg": 4.7594,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.0111,
+        "obstacle_longitude": -97.6696,
+        "obstacle_elevation_m": 408.66
+      },
+      {
+        "azimuth_deg": 326.0,
+        "horizon_elevation_deg": 4.8382,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -88.0069,
+        "obstacle_longitude": -97.41317,
+        "obstacle_elevation_m": 432.4
+      },
+      {
+        "azimuth_deg": 327.0,
+        "horizon_elevation_deg": 4.8932,
+        "obstacle_distance_m": 17200.0,
+        "obstacle_latitude": -88.0004,
+        "obstacle_longitude": -97.18666,
+        "obstacle_elevation_m": 456.61
+      },
+      {
+        "azimuth_deg": 328.0,
+        "horizon_elevation_deg": 4.9267,
+        "obstacle_distance_m": 17120.0,
+        "obstacle_latitude": -87.99884,
+        "obstacle_longitude": -96.89732,
+        "obstacle_elevation_m": 459.06
+      },
+      {
+        "azimuth_deg": 329.0,
+        "horizon_elevation_deg": 4.8909,
+        "obstacle_distance_m": 17040.0,
+        "obstacle_latitude": -87.99742,
+        "obstacle_longitude": -96.60889,
+        "obstacle_elevation_m": 440.64
+      },
+      {
+        "azimuth_deg": 330.0,
+        "horizon_elevation_deg": 4.9562,
+        "obstacle_distance_m": 16800.0,
+        "obstacle_latitude": -88.00103,
+        "obstacle_longitude": -96.26478,
+        "obstacle_elevation_m": 437.05
+      },
+      {
+        "azimuth_deg": 331.0,
+        "horizon_elevation_deg": 5.0572,
+        "obstacle_distance_m": 16720.0,
+        "obstacle_latitude": -87.99992,
+        "obstacle_longitude": -95.98002,
+        "obstacle_elevation_m": 459.07
+      },
+      {
+        "azimuth_deg": 332.0,
+        "horizon_elevation_deg": 5.0777,
+        "obstacle_distance_m": 16800.0,
+        "obstacle_latitude": -87.99401,
+        "obstacle_longitude": -95.74929,
+        "obstacle_elevation_m": 472.98
+      },
+      {
+        "azimuth_deg": 333.0,
+        "horizon_elevation_deg": 5.1214,
+        "obstacle_distance_m": 16640.0,
+        "obstacle_latitude": -87.99564,
+        "obstacle_longitude": -95.43919,
+        "obstacle_elevation_m": 470.03
+      },
+      {
+        "azimuth_deg": 334.0,
+        "horizon_elevation_deg": 5.1586,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -87.99493,
+        "obstacle_longitude": -95.15665,
+        "obstacle_elevation_m": 472.94
+      },
+      {
+        "azimuth_deg": 335.0,
+        "horizon_elevation_deg": 5.1856,
+        "obstacle_distance_m": 16560.0,
+        "obstacle_latitude": -87.99187,
+        "obstacle_longitude": -94.89899,
+        "obstacle_elevation_m": 480.81
+      },
+      {
+        "azimuth_deg": 336.0,
+        "horizon_elevation_deg": 5.1544,
+        "obstacle_distance_m": 16400.0,
+        "obstacle_latitude": -87.99394,
+        "obstacle_longitude": -94.5949,
+        "obstacle_elevation_m": 455.74
+      },
+      {
+        "azimuth_deg": 337.0,
+        "horizon_elevation_deg": 5.141,
+        "obstacle_distance_m": 16320.0,
+        "obstacle_latitude": -87.99365,
+        "obstacle_longitude": -94.31578,
+        "obstacle_elevation_m": 443.89
+      },
+      {
+        "azimuth_deg": 338.0,
+        "horizon_elevation_deg": 5.1326,
+        "obstacle_distance_m": 16240.0,
+        "obstacle_latitude": -87.9935,
+        "obstacle_longitude": -94.03786,
+        "obstacle_elevation_m": 433.55
+      },
+      {
+        "azimuth_deg": 339.0,
+        "horizon_elevation_deg": 5.1746,
+        "obstacle_distance_m": 16080.0,
+        "obstacle_latitude": -87.99603,
+        "obstacle_longitude": -93.74098,
+        "obstacle_elevation_m": 429.57
+      },
+      {
+        "azimuth_deg": 340.0,
+        "horizon_elevation_deg": 5.2265,
+        "obstacle_distance_m": 16160.0,
+        "obstacle_latitude": -87.99105,
+        "obstacle_longitude": -93.50502,
+        "obstacle_elevation_m": 452.32
+      },
+      {
+        "azimuth_deg": 341.0,
+        "horizon_elevation_deg": 5.2331,
+        "obstacle_distance_m": 16160.0,
+        "obstacle_latitude": -87.98874,
+        "obstacle_longitude": -93.24829,
+        "obstacle_elevation_m": 454.21
+      },
+      {
+        "azimuth_deg": 342.0,
+        "horizon_elevation_deg": 5.2289,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -87.99167,
+        "obstacle_longitude": -92.95636,
+        "obstacle_elevation_m": 436.88
+      },
+      {
+        "azimuth_deg": 343.0,
+        "horizon_elevation_deg": 5.2147,
+        "obstacle_distance_m": 16000.0,
+        "obstacle_latitude": -87.9896,
+        "obstacle_longitude": -92.70049,
+        "obstacle_elevation_m": 432.86
+      },
+      {
+        "azimuth_deg": 344.0,
+        "horizon_elevation_deg": 5.2053,
+        "obstacle_distance_m": 15840.0,
+        "obstacle_latitude": -87.99282,
+        "obstacle_longitude": -92.4132,
+        "obstacle_elevation_m": 414.16
+      },
+      {
+        "azimuth_deg": 345.0,
+        "horizon_elevation_deg": 5.2352,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -87.99358,
+        "obstacle_longitude": -92.14378,
+        "obstacle_elevation_m": 414.44
+      },
+      {
+        "azimuth_deg": 346.0,
+        "horizon_elevation_deg": 5.1883,
+        "obstacle_distance_m": 15760.0,
+        "obstacle_latitude": -87.99189,
+        "obstacle_longitude": -91.88945,
+        "obstacle_elevation_m": 401.42
+      },
+      {
+        "azimuth_deg": 347.0,
+        "horizon_elevation_deg": 5.1913,
+        "obstacle_distance_m": 15680.0,
+        "obstacle_latitude": -87.99291,
+        "obstacle_longitude": -91.62209,
+        "obstacle_elevation_m": 394.25
+      },
+      {
+        "azimuth_deg": 348.0,
+        "horizon_elevation_deg": 5.199,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -87.99405,
+        "obstacle_longitude": -91.35627,
+        "obstacle_elevation_m": 388.37
+      },
+      {
+        "azimuth_deg": 349.0,
+        "horizon_elevation_deg": 5.1434,
+        "obstacle_distance_m": 15600.0,
+        "obstacle_latitude": -87.99272,
+        "obstacle_longitude": -91.10278,
+        "obstacle_elevation_m": 373.1
+      },
+      {
+        "azimuth_deg": 350.0,
+        "horizon_elevation_deg": 5.0917,
+        "obstacle_distance_m": 15520.0,
+        "obstacle_latitude": -87.99411,
+        "obstacle_longitude": -90.8392,
+        "obstacle_elevation_m": 351.03
+      },
+      {
+        "azimuth_deg": 351.0,
+        "horizon_elevation_deg": 4.9668,
+        "obstacle_distance_m": 15360.0,
+        "obstacle_latitude": -87.99825,
+        "obstacle_longitude": -90.56844,
+        "obstacle_elevation_m": 301.57
+      },
+      {
+        "azimuth_deg": 352.0,
+        "horizon_elevation_deg": 4.8759,
+        "obstacle_distance_m": 15280.0,
+        "obstacle_latitude": -87.99989,
+        "obstacle_longitude": -90.30916,
+        "obstacle_elevation_m": 269.46
+      },
+      {
+        "azimuth_deg": 353.0,
+        "horizon_elevation_deg": 4.698,
+        "obstacle_distance_m": 15520.0,
+        "obstacle_latitude": -87.99115,
+        "obstacle_longitude": -90.07914,
+        "obstacle_elevation_m": 243.5
+      },
+      {
+        "azimuth_deg": 354.0,
+        "horizon_elevation_deg": 4.5896,
+        "obstacle_distance_m": 15280.0,
+        "obstacle_latitude": -87.99828,
+        "obstacle_longitude": -89.80767,
+        "obstacle_elevation_m": 192.51
+      },
+      {
+        "azimuth_deg": 355.0,
+        "horizon_elevation_deg": 4.5159,
+        "obstacle_distance_m": 15120.0,
+        "obstacle_latitude": -88.00292,
+        "obstacle_longitude": -89.54677,
+        "obstacle_elevation_m": 158.68
+      },
+      {
+        "azimuth_deg": 356.0,
+        "horizon_elevation_deg": 4.3742,
+        "obstacle_distance_m": 14800.0,
+        "obstacle_latitude": -88.01294,
+        "obstacle_longitude": -89.28165,
+        "obstacle_elevation_m": 93.76
+      },
+      {
+        "azimuth_deg": 357.0,
+        "horizon_elevation_deg": 4.2867,
+        "obstacle_distance_m": 14800.0,
+        "obstacle_latitude": -88.01255,
+        "obstacle_longitude": -89.03634,
+        "obstacle_elevation_m": 71.02
+      },
+      {
+        "azimuth_deg": 358.0,
+        "horizon_elevation_deg": 4.2019,
+        "obstacle_distance_m": 14800.0,
+        "obstacle_latitude": -88.01227,
+        "obstacle_longitude": -88.79094,
+        "obstacle_elevation_m": 48.98
+      },
+      {
+        "azimuth_deg": 359.0,
+        "horizon_elevation_deg": 4.0271,
+        "obstacle_distance_m": 14720.0,
+        "obstacle_latitude": -88.01473,
+        "obstacle_longitude": -88.54448,
+        "obstacle_elevation_m": -2.75
+      }
+    ]
+  },
+  "independent_geodesic_ecef_skyline_deg": [
+    3.8652503094031005,
+    3.683041018652922,
+    3.507371908528667,
+    3.4243964498159194,
+    3.519407506217822,
+    3.653124850374206,
+    3.689238395446342,
+    3.69807737469534,
+    3.6790830970806288,
+    3.702692876103979,
+    3.7449294814922225,
+    3.8794020492650105,
+    3.8457128156714524,
+    3.8569082548045417,
+    3.883627800483289,
+    3.9134415084325287,
+    3.98811116735644,
+    4.06469616535314,
+    4.078888914480175,
+    4.057041030304495,
+    4.112652857431841,
+    4.13136563686519,
+    4.098102562815555,
+    4.09316610248685,
+    4.100612032260904,
+    4.056628001493142,
+    4.011430522292426,
+    3.9845674717875683,
+    3.93718409703877,
+    3.892471393048306,
+    3.797846721874413,
+    3.679180420358365,
+    3.605030194265765,
+    3.5441765742901206,
+    3.5454974656262146,
+    3.626957749811552,
+    3.7511864224658478,
+    3.893843884380216,
+    4.047301910229392,
+    4.160564584593988,
+    4.271168073073271,
+    4.387190158466438,
+    4.442286702118661,
+    4.475447057161023,
+    4.514043592654524,
+    4.582380225559023,
+    4.6917531919142315,
+    4.784172056257041,
+    5.616763976229541,
+    5.616763976446792,
+    5.6167639761679835,
+    5.6167639761523,
+    5.6167639761278325,
+    5.61676397638727,
+    5.6167639762571815,
+    5.616763976151563,
+    5.616763976348001,
+    5.616763976354577,
+    5.61676397640639,
+    5.616763976271787,
+    5.616763976330394,
+    5.616763976488225,
+    5.6167639763745045,
+    5.6167639761914305,
+    5.803465830669811,
+    5.803465830702277,
+    5.80346583070046,
+    5.803465830699128,
+    5.803465830725949,
+    6.453146067153602,
+    6.608349646538776,
+    6.608349646628911,
+    6.608349646648844,
+    6.675883233435096,
+    6.809623492001136,
+    6.942804471756756,
+    7.5983210496026,
+    7.5983210496410605,
+    7.5983210496323395,
+    8.017329778032005,
+    8.017329778044651,
+    8.101764517108643,
+    8.329062670095052,
+    8.553968114248258,
+    8.697000495624252,
+    8.821805019236457,
+    8.893468258009333,
+    8.924009908516167,
+    8.918032950420448,
+    8.890679560979121,
+    8.846630374460883,
+    8.8129524256501,
+    8.805374578694783,
+    8.923714296284706,
+    9.722744016222324,
+    10.947358027863563,
+    10.947358027843302,
+    10.947358027903874,
+    10.947358027858382,
+    12.274596851694776,
+    12.27459685178079,
+    12.274596851782006,
+    12.27459685172498,
+    12.274596851779176,
+    12.274596851718966,
+    12.274596851753751,
+    12.274596851782738,
+    12.274596851777023,
+    12.274596851810516,
+    16.23719149745309,
+    16.237191497143716,
+    16.23719149740287,
+    16.237191497265915,
+    16.23719149707914,
+    16.237191497409338,
+    16.237191497483188,
+    16.237191497124304,
+    16.23719149690701,
+    16.23719149751806,
+    16.237191497588686,
+    16.23719149721299,
+    16.23719149733888,
+    16.237191497403607,
+    16.237191497237273,
+    16.23719149755343,
+    16.237191497084783,
+    16.23719149720856,
+    16.23719149750411,
+    16.237191496874445,
+    16.237191496858138,
+    16.237191496897218,
+    16.820464045801977,
+    16.820464046043597,
+    16.82046404611067,
+    16.820464045664583,
+    16.820464045630928,
+    16.82046404594433,
+    16.82046404611265,
+    16.82046404589782,
+    16.82046404577417,
+    16.820464046002694,
+    16.820464045728468,
+    16.82046404570504,
+    16.820464045743332,
+    16.237191497400175,
+    16.23719149702559,
+    16.237191497011672,
+    16.237191497332315,
+    16.237191496946867,
+    16.237191498026725,
+    16.237191497102405,
+    16.237191497517944,
+    16.237191497064043,
+    16.237191497099428,
+    16.237191497074033,
+    16.237191497195145,
+    16.237191496813633,
+    16.23719149674683,
+    16.237191496847306,
+    16.237191497151958,
+    16.23719149795333,
+    16.237191497092564,
+    16.23719149787799,
+    16.237191496930897,
+    16.237191497984867,
+    16.23719149701229,
+    16.237191497524428,
+    16.237191497258983,
+    16.237191497430363,
+    16.23719149713219,
+    16.237191497772777,
+    13.458550794129819,
+    13.458550793726634,
+    13.458550793945813,
+    13.45855079413682,
+    12.186217214744618,
+    10.984108753144513,
+    10.722171108334576,
+    10.722171108455388,
+    10.722171107582831,
+    10.722171107793406,
+    10.722171107581934,
+    10.722171108455951,
+    10.722171108333768,
+    10.722171108069949,
+    10.722171108166938,
+    10.722171108131331,
+    10.722171108031997,
+    10.722171107684213,
+    10.72217110799356,
+    10.722171108274072,
+    10.722171107824854,
+    10.722171107961534,
+    10.722171107943428,
+    10.722171107988421,
+    10.722171107731524,
+    10.722171108311723,
+    10.72217110773418,
+    10.722171108324924,
+    10.722171107857926,
+    10.722171108369785,
+    10.722171107843518,
+    10.722171107536571,
+    10.722171107507833,
+    10.722171107504586,
+    10.72217110790051,
+    10.722171107689434,
+    10.722171107775166,
+    10.722171107772917,
+    10.72217110804894,
+    10.722171107739362,
+    10.722171108301964,
+    10.722171107621595,
+    10.722171107946142,
+    10.722171107716518,
+    10.722171107770473,
+    10.722171108092759,
+    10.722171107983597,
+    10.722171107823202,
+    10.722171108082726,
+    10.72217110780862,
+    10.722171107917475,
+    10.722171107907949,
+    10.722171107945941,
+    10.722171108066728,
+    10.722171108235896,
+    10.722171107747698,
+    10.722171107927922,
+    10.722171107802698,
+    10.722171108124762,
+    10.722171107708386,
+    10.722171107667638,
+    10.722171107709887,
+    10.722171108012793,
+    10.722171107882673,
+    10.722171107762591,
+    10.722171108006878,
+    10.722171107849569,
+    10.722171108019714,
+    4.080063856932261,
+    4.046763629863095,
+    3.9918412778805545,
+    3.919432602803905,
+    3.9330910447410075,
+    3.8999304237473047,
+    3.8813740351230894,
+    3.841169132592946,
+    3.779505193358285,
+    3.6918886302650735,
+    3.563772723362252,
+    3.5332669902773177,
+    3.534288509514594,
+    3.5437278106130847,
+    3.5738392457689994,
+    3.5515946157696496,
+    3.433033181092905,
+    3.3206663111410757,
+    3.261939561915696,
+    3.28961495735628,
+    3.312371572324924,
+    3.395736023200094,
+    3.438912116312941,
+    3.4670899718606467,
+    3.5264049352920592,
+    3.5945794318988296,
+    3.6533451922697653,
+    3.7308224537620385,
+    3.7515483721890135,
+    3.800093682450322,
+    3.8327501683623577,
+    3.863650734675299,
+    3.8627484365889413,
+    3.8912743592481065,
+    3.916209573917104,
+    3.9109749036606094,
+    3.837607401841056,
+    3.857004536686534,
+    3.940586086960132,
+    4.0608564995586285,
+    4.164385019267969,
+    4.207248175382181,
+    4.2099719366335915,
+    4.187819017248597,
+    4.148428097331777,
+    4.060747359417817,
+    4.023222461303604,
+    3.946544664149762,
+    3.9670266010134054,
+    4.002697841423865,
+    3.9645245855580113,
+    3.904098641224854,
+    3.91798232979223,
+    3.915573019483787,
+    3.952144666467969,
+    3.9364870444774316,
+    3.9051132648767495,
+    3.870628499793611,
+    3.8245955261428453,
+    3.8103854268161896,
+    3.8157645708705754,
+    3.846756256042827,
+    3.852680302176182,
+    3.868497109005186,
+    3.884409255415585,
+    3.8669619284849905,
+    3.81875453753049,
+    3.8196000348174026,
+    3.786495391542074,
+    3.789853197724633,
+    3.8029671897174286,
+    3.862875055634346,
+    3.888155414915454,
+    3.9489997466658653,
+    3.9958841899281246,
+    4.054655324617162,
+    4.108726290207155,
+    4.159452335739507,
+    4.239820700901676,
+    4.264048444505265,
+    4.308432013725391,
+    4.394709374371454,
+    4.465611595114346,
+    4.55186363030623,
+    4.636495043573649,
+    4.674534969944677,
+    4.7593957191111675,
+    4.8381992249391645,
+    4.893166181559998,
+    4.926676721108912,
+    4.8950593410507794,
+    4.956200732405515,
+    5.059403967365658,
+    5.077680611727922,
+    5.121433037513161,
+    5.158617686374196,
+    5.185620871698923,
+    5.154427822217673,
+    5.140955991928948,
+    5.13261334224777,
+    5.1958795234172905,
+    5.226443689762887,
+    5.233062354394538,
+    5.228908997143677,
+    5.214639388447008,
+    5.205281447056048,
+    5.235174329929931,
+    5.1882753570493,
+    5.191283615753043,
+    5.209672821013083,
+    5.143425377672833,
+    5.096777588720983,
+    4.96679922648374,
+    4.875881578339176,
+    4.697969200368752,
+    4.589587434627855,
+    4.51591645100924,
+    4.3741726915387655,
+    4.286688744026376,
+    4.201888803716635,
+    4.0270989019534325
+  ]
+}

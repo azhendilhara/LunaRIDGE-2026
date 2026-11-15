@@ -1,0 +1,51 @@
+{
+  "input": {
+    "latitude": -88.5,
+    "longitude": -88.3,
+    "start_time": "2026-11-06T00:00:00Z",
+    "stop_time": "2026-11-26T12:00:00Z",
+    "step_size": "1h",
+    "observer_height_m": 100.0,
+    "horizon_azimuth_step_deg": 1.0,
+    "horizon_max_distance_km": 50.0
+  },
+  "site": {
+    "latitude": -88.5,
+    "longitude": -88.3,
+    "ground_elevation_m": -1103.41,
+    "observer_height_m": 100.0,
+    "total_altitude_m": -1003.4100000000001,
+    "reference_frame": "MEAN_ME (IAU / LOLA Polar Stereographic & JPL Horizons DE441)",
+    "datum": "Moon (2015) - Sphere, R=1737.4 km"
+  },
+  "time_range": {
+    "start_time": "2026-11-06T00:00:00Z",
+    "stop_time": "2026-11-26T12:00:00Z",
+    "requested_start_time": "2026-11-06T00:00:00Z",
+    "requested_stop_time": "2026-11-26T12:00:00Z",
+    "step_size": "1h",
+    "total_points": 493,
+    "elapsed_hours": 492.0,
+    "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+  },
+  "targets": {
+    "earth": {
+      "percent": 0.0,
+      "visible_hours": 0.0,
+      "clearance_range_deg": [
+        -15.3188868,
+        -2.01553155
+      ],
+      "windows": 0
+    },
+    "sun": {
+      "percent": 0.0,
+      "visible_hours": 0.0,
+      "clearance_range_deg": [
+        -9.200784,
+        -1.01870842
+      ],
+      "windows": 0
+    }
+  }
+}

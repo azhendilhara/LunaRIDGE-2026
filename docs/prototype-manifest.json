@@ -1,0 +1,302 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 7719,
+    "sha256": "20d7f32ebfba9a2351f6ffa46244252cb3f44a52d093150f19c11e96c3270f68"
+  },
+  {
+    "path": "backend\\download_dem.py",
+    "bytes": 1775,
+    "sha256": "2845bfd88e33c34b9c5fd5a408c200e632616aab4960b41e8840525f1dea67fb"
+  },
+  {
+    "path": "backend\\generate_lunar_map.py",
+    "bytes": 4578,
+    "sha256": "e009e7831d4298503a53630f5c8dfabc276d14cc495846311af2e1cb3102e720"
+  },
+  {
+    "path": "backend\\main.py",
+    "bytes": 8035,
+    "sha256": "f5b1f3b250cb4c859a9e7a5d768af71e18b2d175a00200c4810936e18b485930"
+  },
+  {
+    "path": "backend\\pytest.ini",
+    "bytes": 84,
+    "sha256": "bb0913d9c5e820e88cce7602989ad71a70b824046a198c3be26fbc2920b76b59"
+  },
+  {
+    "path": "backend\\requirements.txt",
+    "bytes": 101,
+    "sha256": "533da47d6b3acd819cf4695ccf66ac8c4d18b27e4be023ecdb8531fe4bc8a852"
+  },
+  {
+    "path": "backend\\app\\__init__.py",
+    "bytes": 45,
+    "sha256": "c3ed08ff6784ddf16865859bc0ec5df1a3c7f4bd00c8c9a4a1ea807b9c978335"
+  },
+  {
+    "path": "backend\\app\\schemas\\__init__.py",
+    "bytes": 953,
+    "sha256": "2082ec5ae9fbba88f877de18af8df2f491959b1d8dedd24e75d6c0c7a3b11919"
+  },
+  {
+    "path": "backend\\app\\schemas\\ephemeris.py",
+    "bytes": 5035,
+    "sha256": "ed3dfa5d753012890b0f33a8d0ef2bd8644c1555308da5651f6ab222fd3755e5"
+  },
+  {
+    "path": "backend\\app\\schemas\\terrain.py",
+    "bytes": 4974,
+    "sha256": "72c5aa27c1f41285d37cdb4aeec405ecd0e5185a3ec2da3388a4aff3746cf4a4"
+  },
+  {
+    "path": "backend\\app\\schemas\\visibility.py",
+    "bytes": 9269,
+    "sha256": "afdcc06ce5197d337c5ce74ca3d68db2fa167e361a13a876f88da3f2fa32f9c5"
+  },
+  {
+    "path": "backend\\app\\services\\__init__.py",
+    "bytes": 369,
+    "sha256": "50c1d9c5dfe287997fd461987e96bd1105189c661feb8b4c2e05631a00c060bd"
+  },
+  {
+    "path": "backend\\app\\services\\horizons_service.py",
+    "bytes": 11250,
+    "sha256": "721b7da858d27a2b0e6dd085fb4ec145d01ff85745bbe274a4dcdcfd63c26637"
+  },
+  {
+    "path": "backend\\app\\services\\terrain_service.py",
+    "bytes": 14415,
+    "sha256": "263f366a91c75eac6a5f5cfc07db6a6496e3c7001d4f4315b1d50b6437562403"
+  },
+  {
+    "path": "backend\\app\\services\\visibility_service.py",
+    "bytes": 24079,
+    "sha256": "d49c46d75bf31f40bc336900d87bcb6b65d3988e826fc19058b287437f7b6c15"
+  },
+  {
+    "path": "backend\\tests\\test_api_terrain.py",
+    "bytes": 2519,
+    "sha256": "4129ec33d02130afd740b5c786dc66804ef156d6780063f1f72476b94e0a19cb"
+  },
+  {
+    "path": "backend\\tests\\test_horizons_service.py",
+    "bytes": 3690,
+    "sha256": "de38a0f5f9f17631d15690dbee7f7407f66a766e794bf272bc72e6049cc3442b"
+  },
+  {
+    "path": "backend\\tests\\test_main.py",
+    "bytes": 3410,
+    "sha256": "a96b0c0264a064701a3581d5620e6a4ec5e16356445120cfa766eaca26ad835a"
+  },
+  {
+    "path": "backend\\tests\\test_map_and_comparison.py",
+    "bytes": 8111,
+    "sha256": "28625f0949307f1c923eac666b7850406286b5a9d9ab074a6d7697d1449d64e7"
+  },
+  {
+    "path": "backend\\tests\\test_terrain_service.py",
+    "bytes": 8533,
+    "sha256": "d1a22748e71f1de5832bfa79604ee7465c98b8acff02941e7d0e135c10cf6c03"
+  },
+  {
+    "path": "backend\\tests\\test_visibility_service.py",
+    "bytes": 14391,
+    "sha256": "e860ca4d86bcc595e8b8052b21631114b2a1299e171daccce2302d53e48a9e4c"
+  },
+  {
+    "path": "data\\lunar_dem\\LDEM_80S_80MPP_ADJ.TIF",
+    "bytes": 189158392,
+    "sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a"
+  },
+  {
+    "path": "frontend\\.gitignore",
+    "bytes": 253,
+    "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+  },
+  {
+    "path": "frontend\\.oxlintrc.json",
+    "bytes": 245,
+    "sha256": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4"
+  },
+  {
+    "path": "frontend\\index.html",
+    "bytes": 1007,
+    "sha256": "a3a7b91f2f7245222c22c6b5b14c9a93e9e009b15b02c438ed400d60098af7c6"
+  },
+  {
+    "path": "frontend\\package-lock.json",
+    "bytes": 84242,
+    "sha256": "4cf030ab58a9eab1ddfb788026b093db1aa2e91a076e63ab9c5da6656c30a537"
+  },
+  {
+    "path": "frontend\\package.json",
+    "bytes": 649,
+    "sha256": "f71b91cd991014dc3bbd0970706fe414a05b7799e9d93d5a02f3f4a27c120a06"
+  },
+  {
+    "path": "frontend\\README.md",
+    "bytes": 1278,
+    "sha256": "fa8aac78b8be1993010b57f41000a243ecba006f6731513fe4ec91e788bf2517"
+  },
+  {
+    "path": "frontend\\tsconfig.app.json",
+    "bytes": 659,
+    "sha256": "3e139c64e15c2f8eefafdf8b88eb04b4775b28b8e7956e98ed919deeada27580"
+  },
+  {
+    "path": "frontend\\tsconfig.json",
+    "bytes": 119,
+    "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+  },
+  {
+    "path": "frontend\\tsconfig.node.json",
+    "bytes": 558,
+    "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+  },
+  {
+    "path": "frontend\\vite.config.ts",
+    "bytes": 477,
+    "sha256": "9430c0c06ddd0629ead59cd36d83ac85970482e7288b2ae6d8e850c5df3871c2"
+  },
+  {
+    "path": "frontend\\public\\favicon.svg",
+    "bytes": 9522,
+    "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+  },
+  {
+    "path": "frontend\\public\\icons.svg",
+    "bytes": 5031,
+    "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+  },
+  {
+    "path": "frontend\\public\\lunar_south_pole_dem.png",
+    "bytes": 900911,
+    "sha256": "e59b966c4ab107f4abd20413a7752f690235b3157bacc7f6eeaa47f74a830f7f"
+  },
+  {
+    "path": "frontend\\public\\satellite.svg",
+    "bytes": 317,
+    "sha256": "d82b40b3b02d9e27b67fafbcd8bdaaa74b1ca37eb968a1dd4a08df596a46d304"
+  },
+  {
+    "path": "frontend\\src\\App.css",
+    "bytes": 27,
+    "sha256": "d0f65c275352908f68382a7ff48d3182badacfce89d364f51ea632b182b8b7ae"
+  },
+  {
+    "path": "frontend\\src\\App.tsx",
+    "bytes": 18417,
+    "sha256": "907c24377328cedc6452a92cfbad9f68e331263088483b38b25efef948d298b8"
+  },
+  {
+    "path": "frontend\\src\\index.css",
+    "bytes": 929,
+    "sha256": "b1c12a0407eca3d9ca14499697f14984eadeccde8078cb93bc0ff9a68c19bddb"
+  },
+  {
+    "path": "frontend\\src\\main.tsx",
+    "bytes": 230,
+    "sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2"
+  },
+  {
+    "path": "frontend\\src\\assets\\hero.png",
+    "bytes": 13057,
+    "sha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c"
+  },
+  {
+    "path": "frontend\\src\\assets\\react.svg",
+    "bytes": 4126,
+    "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+  },
+  {
+    "path": "frontend\\src\\assets\\vite.svg",
+    "bytes": 8709,
+    "sha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f"
+  },
+  {
+    "path": "frontend\\src\\components\\ClearanceChart.tsx",
+    "bytes": 5312,
+    "sha256": "521076099c7271efe345b99ad3a43f63be034521271022476ed48df1c484462a"
+  },
+  {
+    "path": "frontend\\src\\components\\ControlsPanel.tsx",
+    "bytes": 18058,
+    "sha256": "5df08ce74641c8b2de37a15173e95b9b3af08dbb5ced44bbe613251c67661e23"
+  },
+  {
+    "path": "frontend\\src\\components\\ElevationChart.tsx",
+    "bytes": 10431,
+    "sha256": "e0b20a4130faa2d8955fc5d3b516addc10d10bff6cd3f86002d836c69a2bd51b"
+  },
+  {
+    "path": "frontend\\src\\components\\EmptyState.tsx",
+    "bytes": 4706,
+    "sha256": "c8e05c8cd40c9edfe592b025911ad9dc4b91bf41a4cfe41351d1679e73b75aa4"
+  },
+  {
+    "path": "frontend\\src\\components\\EngineeringDisclaimer.tsx",
+    "bytes": 6144,
+    "sha256": "89cd13703923a04eeda9c99ce60997898112c516833fc23c564c0470c446e6bd"
+  },
+  {
+    "path": "frontend\\src\\components\\Header.tsx",
+    "bytes": 4536,
+    "sha256": "690b0de3ab36ee5869794958a2fb0a151663104e77ef133fefff00d7b2700f9a"
+  },
+  {
+    "path": "frontend\\src\\components\\HorizonAzimuthChart.tsx",
+    "bytes": 9232,
+    "sha256": "22b6e8d9025ac40f69a12c9e7540c5755c34ace0b98ac5d884536e681ef704ab"
+  },
+  {
+    "path": "frontend\\src\\components\\InteractiveLunarMap.tsx",
+    "bytes": 20861,
+    "sha256": "b6c4352734800982eff8bd4c36a8e8a146ebd4ab77d8ae1b0b64ed240e66fc6d"
+  },
+  {
+    "path": "frontend\\src\\components\\LandingSiteComparison.tsx",
+    "bytes": 38737,
+    "sha256": "2059218402b57dccc8b201c8f7724773444a4a939952607c454f2912d431f7f3"
+  },
+  {
+    "path": "frontend\\src\\components\\MetricCards.tsx",
+    "bytes": 12969,
+    "sha256": "212f8857725e294fcd1224348221f0ecdabed8a90056081be71bd3447c3df244"
+  },
+  {
+    "path": "frontend\\src\\components\\ProvenanceModal.tsx",
+    "bytes": 6131,
+    "sha256": "4365c62997757009c3a653f0cf88645729064ba6c452ffa952610f7086c38cbc"
+  },
+  {
+    "path": "frontend\\src\\components\\TimelineBar.tsx",
+    "bytes": 8696,
+    "sha256": "fbf3b558a9c031ab7073daa728d31b270c439eb0fffed4093e9d5b68e848e440"
+  },
+  {
+    "path": "frontend\\src\\components\\WindowsTable.tsx",
+    "bytes": 5687,
+    "sha256": "c6d1733c14ed5a6d37491838cf09a614f13b937367abe57c2b206fcb7ef7d1f1"
+  },
+  {
+    "path": "frontend\\src\\constants\\presets.ts",
+    "bytes": 3858,
+    "sha256": "f038da3098145d417ee66a82cb4251b0d640baa35cecfe049fede822a114dd44"
+  },
+  {
+    "path": "frontend\\src\\services\\api.ts",
+    "bytes": 2370,
+    "sha256": "ba9054d7f8ede4608fff71c5e9ad7f7ad83b341e13eb351a12c0d9fb9ce6c0c6"
+  },
+  {
+    "path": "frontend\\src\\types\\api.ts",
+    "bytes": 3252,
+    "sha256": "bac83df79c5af86ea93d5b7bd213f52f413f2d46778f6634479a396207e3ac59"
+  },
+  {
+    "path": "frontend\\src\\utils\\coordinates.ts",
+    "bytes": 2838,
+    "sha256": "f890bbd3e502818bb67bd36600bc35696cd9d202746a023dc2d42bc8b3532dab"
+  }
+]

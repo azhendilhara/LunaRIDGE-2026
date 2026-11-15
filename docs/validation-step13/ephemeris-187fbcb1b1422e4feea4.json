@@ -1,0 +1,2184 @@
+{
+  "request": {
+    "command": "10",
+    "latitude": -85.25,
+    "longitude": 53.5,
+    "altitude_km": 0.82802,
+    "start_time": "2026-11-06T00:00:00Z",
+    "stop_time": "2026-11-07T12:00:00Z",
+    "step_size": "10m"
+  },
+  "retrieved_utc": "2026-11-14T08:54:53.613744+00:00",
+  "records": [
+    {
+      "raw_time": "2026-Nov-06 00:00:00",
+      "timestamp": "2026-11-06T00:00:00Z",
+      "azimuth_deg": 170.701024,
+      "elevation_deg": -3.178755,
+      "altitude_deg": -3.178755,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 00:10:00",
+      "timestamp": "2026-11-06T00:10:00Z",
+      "azimuth_deg": 170.616228,
+      "elevation_deg": -3.177543,
+      "altitude_deg": -3.177543,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 00:20:00",
+      "timestamp": "2026-11-06T00:20:00Z",
+      "azimuth_deg": 170.531433,
+      "elevation_deg": -3.17632,
+      "altitude_deg": -3.17632,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 00:30:00",
+      "timestamp": "2026-11-06T00:30:00Z",
+      "azimuth_deg": 170.446637,
+      "elevation_deg": -3.175087,
+      "altitude_deg": -3.175087,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 00:40:00",
+      "timestamp": "2026-11-06T00:40:00Z",
+      "azimuth_deg": 170.361842,
+      "elevation_deg": -3.173843,
+      "altitude_deg": -3.173843,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 00:50:00",
+      "timestamp": "2026-11-06T00:50:00Z",
+      "azimuth_deg": 170.277047,
+      "elevation_deg": -3.17259,
+      "altitude_deg": -3.17259,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 01:00:00",
+      "timestamp": "2026-11-06T01:00:00Z",
+      "azimuth_deg": 170.192252,
+      "elevation_deg": -3.171326,
+      "altitude_deg": -3.171326,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 01:10:00",
+      "timestamp": "2026-11-06T01:10:00Z",
+      "azimuth_deg": 170.107457,
+      "elevation_deg": -3.170052,
+      "altitude_deg": -3.170052,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 01:20:00",
+      "timestamp": "2026-11-06T01:20:00Z",
+      "azimuth_deg": 170.022662,
+      "elevation_deg": -3.168768,
+      "altitude_deg": -3.168768,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 01:30:00",
+      "timestamp": "2026-11-06T01:30:00Z",
+      "azimuth_deg": 169.937867,
+      "elevation_deg": -3.167473,
+      "altitude_deg": -3.167473,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 01:40:00",
+      "timestamp": "2026-11-06T01:40:00Z",
+      "azimuth_deg": 169.853072,
+      "elevation_deg": -3.166169,
+      "altitude_deg": -3.166169,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 01:50:00",
+      "timestamp": "2026-11-06T01:50:00Z",
+      "azimuth_deg": 169.768278,
+      "elevation_deg": -3.164854,
+      "altitude_deg": -3.164854,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 02:00:00",
+      "timestamp": "2026-11-06T02:00:00Z",
+      "azimuth_deg": 169.683483,
+      "elevation_deg": -3.163529,
+      "altitude_deg": -3.163529,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 02:10:00",
+      "timestamp": "2026-11-06T02:10:00Z",
+      "azimuth_deg": 169.598688,
+      "elevation_deg": -3.162194,
+      "altitude_deg": -3.162194,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 02:20:00",
+      "timestamp": "2026-11-06T02:20:00Z",
+      "azimuth_deg": 169.513894,
+      "elevation_deg": -3.160848,
+      "altitude_deg": -3.160848,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 02:30:00",
+      "timestamp": "2026-11-06T02:30:00Z",
+      "azimuth_deg": 169.4291,
+      "elevation_deg": -3.159493,
+      "altitude_deg": -3.159493,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 02:40:00",
+      "timestamp": "2026-11-06T02:40:00Z",
+      "azimuth_deg": 169.344306,
+      "elevation_deg": -3.158127,
+      "altitude_deg": -3.158127,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 02:50:00",
+      "timestamp": "2026-11-06T02:50:00Z",
+      "azimuth_deg": 169.259511,
+      "elevation_deg": -3.156751,
+      "altitude_deg": -3.156751,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 03:00:00",
+      "timestamp": "2026-11-06T03:00:00Z",
+      "azimuth_deg": 169.174717,
+      "elevation_deg": -3.155365,
+      "altitude_deg": -3.155365,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 03:10:00",
+      "timestamp": "2026-11-06T03:10:00Z",
+      "azimuth_deg": 169.089923,
+      "elevation_deg": -3.153969,
+      "altitude_deg": -3.153969,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 03:20:00",
+      "timestamp": "2026-11-06T03:20:00Z",
+      "azimuth_deg": 169.00513,
+      "elevation_deg": -3.152562,
+      "altitude_deg": -3.152562,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 03:30:00",
+      "timestamp": "2026-11-06T03:30:00Z",
+      "azimuth_deg": 168.920336,
+      "elevation_deg": -3.151146,
+      "altitude_deg": -3.151146,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 03:40:00",
+      "timestamp": "2026-11-06T03:40:00Z",
+      "azimuth_deg": 168.835542,
+      "elevation_deg": -3.149719,
+      "altitude_deg": -3.149719,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 03:50:00",
+      "timestamp": "2026-11-06T03:50:00Z",
+      "azimuth_deg": 168.750749,
+      "elevation_deg": -3.148282,
+      "altitude_deg": -3.148282,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 04:00:00",
+      "timestamp": "2026-11-06T04:00:00Z",
+      "azimuth_deg": 168.665955,
+      "elevation_deg": -3.146835,
+      "altitude_deg": -3.146835,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 04:10:00",
+      "timestamp": "2026-11-06T04:10:00Z",
+      "azimuth_deg": 168.581162,
+      "elevation_deg": -3.145377,
+      "altitude_deg": -3.145377,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 04:20:00",
+      "timestamp": "2026-11-06T04:20:00Z",
+      "azimuth_deg": 168.496369,
+      "elevation_deg": -3.14391,
+      "altitude_deg": -3.14391,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 04:30:00",
+      "timestamp": "2026-11-06T04:30:00Z",
+      "azimuth_deg": 168.411576,
+      "elevation_deg": -3.142432,
+      "altitude_deg": -3.142432,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 04:40:00",
+      "timestamp": "2026-11-06T04:40:00Z",
+      "azimuth_deg": 168.326783,
+      "elevation_deg": -3.140945,
+      "altitude_deg": -3.140945,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 04:50:00",
+      "timestamp": "2026-11-06T04:50:00Z",
+      "azimuth_deg": 168.241991,
+      "elevation_deg": -3.139447,
+      "altitude_deg": -3.139447,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 05:00:00",
+      "timestamp": "2026-11-06T05:00:00Z",
+      "azimuth_deg": 168.157198,
+      "elevation_deg": -3.137939,
+      "altitude_deg": -3.137939,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 05:10:00",
+      "timestamp": "2026-11-06T05:10:00Z",
+      "azimuth_deg": 168.072405,
+      "elevation_deg": -3.136421,
+      "altitude_deg": -3.136421,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 05:20:00",
+      "timestamp": "2026-11-06T05:20:00Z",
+      "azimuth_deg": 167.987613,
+      "elevation_deg": -3.134892,
+      "altitude_deg": -3.134892,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 05:30:00",
+      "timestamp": "2026-11-06T05:30:00Z",
+      "azimuth_deg": 167.902821,
+      "elevation_deg": -3.133354,
+      "altitude_deg": -3.133354,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 05:40:00",
+      "timestamp": "2026-11-06T05:40:00Z",
+      "azimuth_deg": 167.818029,
+      "elevation_deg": -3.131806,
+      "altitude_deg": -3.131806,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 05:50:00",
+      "timestamp": "2026-11-06T05:50:00Z",
+      "azimuth_deg": 167.733237,
+      "elevation_deg": -3.130247,
+      "altitude_deg": -3.130247,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:00:00",
+      "timestamp": "2026-11-06T06:00:00Z",
+      "azimuth_deg": 167.648445,
+      "elevation_deg": -3.128678,
+      "altitude_deg": -3.128678,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:10:00",
+      "timestamp": "2026-11-06T06:10:00Z",
+      "azimuth_deg": 167.563653,
+      "elevation_deg": -3.127099,
+      "altitude_deg": -3.127099,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:20:00",
+      "timestamp": "2026-11-06T06:20:00Z",
+      "azimuth_deg": 167.478862,
+      "elevation_deg": -3.12551,
+      "altitude_deg": -3.12551,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:30:00",
+      "timestamp": "2026-11-06T06:30:00Z",
+      "azimuth_deg": 167.394071,
+      "elevation_deg": -3.123911,
+      "altitude_deg": -3.123911,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:40:00",
+      "timestamp": "2026-11-06T06:40:00Z",
+      "azimuth_deg": 167.309279,
+      "elevation_deg": -3.122302,
+      "altitude_deg": -3.122302,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 06:50:00",
+      "timestamp": "2026-11-06T06:50:00Z",
+      "azimuth_deg": 167.224488,
+      "elevation_deg": -3.120683,
+      "altitude_deg": -3.120683,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 07:00:00",
+      "timestamp": "2026-11-06T07:00:00Z",
+      "azimuth_deg": 167.139697,
+      "elevation_deg": -3.119053,
+      "altitude_deg": -3.119053,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 07:10:00",
+      "timestamp": "2026-11-06T07:10:00Z",
+      "azimuth_deg": 167.054907,
+      "elevation_deg": -3.117414,
+      "altitude_deg": -3.117414,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 07:20:00",
+      "timestamp": "2026-11-06T07:20:00Z",
+      "azimuth_deg": 166.970116,
+      "elevation_deg": -3.115764,
+      "altitude_deg": -3.115764,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 07:30:00",
+      "timestamp": "2026-11-06T07:30:00Z",
+      "azimuth_deg": 166.885326,
+      "elevation_deg": -3.114104,
+      "altitude_deg": -3.114104,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 07:40:00",
+      "timestamp": "2026-11-06T07:40:00Z",
+      "azimuth_deg": 166.800536,
+      "elevation_deg": -3.112435,
+      "altitude_deg": -3.112435,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 07:50:00",
+      "timestamp": "2026-11-06T07:50:00Z",
+      "azimuth_deg": 166.715746,
+      "elevation_deg": -3.110755,
+      "altitude_deg": -3.110755,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 08:00:00",
+      "timestamp": "2026-11-06T08:00:00Z",
+      "azimuth_deg": 166.630956,
+      "elevation_deg": -3.109065,
+      "altitude_deg": -3.109065,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 08:10:00",
+      "timestamp": "2026-11-06T08:10:00Z",
+      "azimuth_deg": 166.546166,
+      "elevation_deg": -3.107365,
+      "altitude_deg": -3.107365,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 08:20:00",
+      "timestamp": "2026-11-06T08:20:00Z",
+      "azimuth_deg": 166.461376,
+      "elevation_deg": -3.105655,
+      "altitude_deg": -3.105655,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 08:30:00",
+      "timestamp": "2026-11-06T08:30:00Z",
+      "azimuth_deg": 166.376587,
+      "elevation_deg": -3.103935,
+      "altitude_deg": -3.103935,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 08:40:00",
+      "timestamp": "2026-11-06T08:40:00Z",
+      "azimuth_deg": 166.291798,
+      "elevation_deg": -3.102204,
+      "altitude_deg": -3.102204,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 08:50:00",
+      "timestamp": "2026-11-06T08:50:00Z",
+      "azimuth_deg": 166.207009,
+      "elevation_deg": -3.100464,
+      "altitude_deg": -3.100464,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 09:00:00",
+      "timestamp": "2026-11-06T09:00:00Z",
+      "azimuth_deg": 166.12222,
+      "elevation_deg": -3.098714,
+      "altitude_deg": -3.098714,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 09:10:00",
+      "timestamp": "2026-11-06T09:10:00Z",
+      "azimuth_deg": 166.037432,
+      "elevation_deg": -3.096953,
+      "altitude_deg": -3.096953,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 09:20:00",
+      "timestamp": "2026-11-06T09:20:00Z",
+      "azimuth_deg": 165.952643,
+      "elevation_deg": -3.095183,
+      "altitude_deg": -3.095183,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 09:30:00",
+      "timestamp": "2026-11-06T09:30:00Z",
+      "azimuth_deg": 165.867855,
+      "elevation_deg": -3.093402,
+      "altitude_deg": -3.093402,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 09:40:00",
+      "timestamp": "2026-11-06T09:40:00Z",
+      "azimuth_deg": 165.783067,
+      "elevation_deg": -3.091612,
+      "altitude_deg": -3.091612,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 09:50:00",
+      "timestamp": "2026-11-06T09:50:00Z",
+      "azimuth_deg": 165.698279,
+      "elevation_deg": -3.089811,
+      "altitude_deg": -3.089811,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 10:00:00",
+      "timestamp": "2026-11-06T10:00:00Z",
+      "azimuth_deg": 165.613491,
+      "elevation_deg": -3.088001,
+      "altitude_deg": -3.088001,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 10:10:00",
+      "timestamp": "2026-11-06T10:10:00Z",
+      "azimuth_deg": 165.528704,
+      "elevation_deg": -3.08618,
+      "altitude_deg": -3.08618,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 10:20:00",
+      "timestamp": "2026-11-06T10:20:00Z",
+      "azimuth_deg": 165.443917,
+      "elevation_deg": -3.084349,
+      "altitude_deg": -3.084349,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 10:30:00",
+      "timestamp": "2026-11-06T10:30:00Z",
+      "azimuth_deg": 165.35913,
+      "elevation_deg": -3.082509,
+      "altitude_deg": -3.082509,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 10:40:00",
+      "timestamp": "2026-11-06T10:40:00Z",
+      "azimuth_deg": 165.274343,
+      "elevation_deg": -3.080658,
+      "altitude_deg": -3.080658,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 10:50:00",
+      "timestamp": "2026-11-06T10:50:00Z",
+      "azimuth_deg": 165.189556,
+      "elevation_deg": -3.078797,
+      "altitude_deg": -3.078797,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 11:00:00",
+      "timestamp": "2026-11-06T11:00:00Z",
+      "azimuth_deg": 165.10477,
+      "elevation_deg": -3.076927,
+      "altitude_deg": -3.076927,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 11:10:00",
+      "timestamp": "2026-11-06T11:10:00Z",
+      "azimuth_deg": 165.019984,
+      "elevation_deg": -3.075046,
+      "altitude_deg": -3.075046,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 11:20:00",
+      "timestamp": "2026-11-06T11:20:00Z",
+      "azimuth_deg": 164.935198,
+      "elevation_deg": -3.073155,
+      "altitude_deg": -3.073155,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 11:30:00",
+      "timestamp": "2026-11-06T11:30:00Z",
+      "azimuth_deg": 164.850412,
+      "elevation_deg": -3.071255,
+      "altitude_deg": -3.071255,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 11:40:00",
+      "timestamp": "2026-11-06T11:40:00Z",
+      "azimuth_deg": 164.765626,
+      "elevation_deg": -3.069344,
+      "altitude_deg": -3.069344,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 11:50:00",
+      "timestamp": "2026-11-06T11:50:00Z",
+      "azimuth_deg": 164.680841,
+      "elevation_deg": -3.067423,
+      "altitude_deg": -3.067423,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:00:00",
+      "timestamp": "2026-11-06T12:00:00Z",
+      "azimuth_deg": 164.596056,
+      "elevation_deg": -3.065493,
+      "altitude_deg": -3.065493,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:10:00",
+      "timestamp": "2026-11-06T12:10:00Z",
+      "azimuth_deg": 164.511271,
+      "elevation_deg": -3.063552,
+      "altitude_deg": -3.063552,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:20:00",
+      "timestamp": "2026-11-06T12:20:00Z",
+      "azimuth_deg": 164.426486,
+      "elevation_deg": -3.061601,
+      "altitude_deg": -3.061601,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:30:00",
+      "timestamp": "2026-11-06T12:30:00Z",
+      "azimuth_deg": 164.341702,
+      "elevation_deg": -3.059641,
+      "altitude_deg": -3.059641,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:40:00",
+      "timestamp": "2026-11-06T12:40:00Z",
+      "azimuth_deg": 164.256918,
+      "elevation_deg": -3.05767,
+      "altitude_deg": -3.05767,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 12:50:00",
+      "timestamp": "2026-11-06T12:50:00Z",
+      "azimuth_deg": 164.172134,
+      "elevation_deg": -3.05569,
+      "altitude_deg": -3.05569,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 13:00:00",
+      "timestamp": "2026-11-06T13:00:00Z",
+      "azimuth_deg": 164.08735,
+      "elevation_deg": -3.053699,
+      "altitude_deg": -3.053699,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 13:10:00",
+      "timestamp": "2026-11-06T13:10:00Z",
+      "azimuth_deg": 164.002567,
+      "elevation_deg": -3.051699,
+      "altitude_deg": -3.051699,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 13:20:00",
+      "timestamp": "2026-11-06T13:20:00Z",
+      "azimuth_deg": 163.917784,
+      "elevation_deg": -3.049688,
+      "altitude_deg": -3.049688,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 13:30:00",
+      "timestamp": "2026-11-06T13:30:00Z",
+      "azimuth_deg": 163.833001,
+      "elevation_deg": -3.047668,
+      "altitude_deg": -3.047668,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 13:40:00",
+      "timestamp": "2026-11-06T13:40:00Z",
+      "azimuth_deg": 163.748218,
+      "elevation_deg": -3.045638,
+      "altitude_deg": -3.045638,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 13:50:00",
+      "timestamp": "2026-11-06T13:50:00Z",
+      "azimuth_deg": 163.663435,
+      "elevation_deg": -3.043597,
+      "altitude_deg": -3.043597,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 14:00:00",
+      "timestamp": "2026-11-06T14:00:00Z",
+      "azimuth_deg": 163.578653,
+      "elevation_deg": -3.041547,
+      "altitude_deg": -3.041547,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 14:10:00",
+      "timestamp": "2026-11-06T14:10:00Z",
+      "azimuth_deg": 163.493871,
+      "elevation_deg": -3.039487,
+      "altitude_deg": -3.039487,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 14:20:00",
+      "timestamp": "2026-11-06T14:20:00Z",
+      "azimuth_deg": 163.409089,
+      "elevation_deg": -3.037417,
+      "altitude_deg": -3.037417,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 14:30:00",
+      "timestamp": "2026-11-06T14:30:00Z",
+      "azimuth_deg": 163.324308,
+      "elevation_deg": -3.035337,
+      "altitude_deg": -3.035337,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 14:40:00",
+      "timestamp": "2026-11-06T14:40:00Z",
+      "azimuth_deg": 163.239527,
+      "elevation_deg": -3.033247,
+      "altitude_deg": -3.033247,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 14:50:00",
+      "timestamp": "2026-11-06T14:50:00Z",
+      "azimuth_deg": 163.154746,
+      "elevation_deg": -3.031148,
+      "altitude_deg": -3.031148,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 15:00:00",
+      "timestamp": "2026-11-06T15:00:00Z",
+      "azimuth_deg": 163.069965,
+      "elevation_deg": -3.029038,
+      "altitude_deg": -3.029038,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 15:10:00",
+      "timestamp": "2026-11-06T15:10:00Z",
+      "azimuth_deg": 162.985185,
+      "elevation_deg": -3.026919,
+      "altitude_deg": -3.026919,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 15:20:00",
+      "timestamp": "2026-11-06T15:20:00Z",
+      "azimuth_deg": 162.900405,
+      "elevation_deg": -3.024789,
+      "altitude_deg": -3.024789,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 15:30:00",
+      "timestamp": "2026-11-06T15:30:00Z",
+      "azimuth_deg": 162.815625,
+      "elevation_deg": -3.02265,
+      "altitude_deg": -3.02265,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 15:40:00",
+      "timestamp": "2026-11-06T15:40:00Z",
+      "azimuth_deg": 162.730845,
+      "elevation_deg": -3.020501,
+      "altitude_deg": -3.020501,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 15:50:00",
+      "timestamp": "2026-11-06T15:50:00Z",
+      "azimuth_deg": 162.646066,
+      "elevation_deg": -3.018341,
+      "altitude_deg": -3.018341,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 16:00:00",
+      "timestamp": "2026-11-06T16:00:00Z",
+      "azimuth_deg": 162.561287,
+      "elevation_deg": -3.016172,
+      "altitude_deg": -3.016172,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 16:10:00",
+      "timestamp": "2026-11-06T16:10:00Z",
+      "azimuth_deg": 162.476508,
+      "elevation_deg": -3.013994,
+      "altitude_deg": -3.013994,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 16:20:00",
+      "timestamp": "2026-11-06T16:20:00Z",
+      "azimuth_deg": 162.39173,
+      "elevation_deg": -3.011805,
+      "altitude_deg": -3.011805,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 16:30:00",
+      "timestamp": "2026-11-06T16:30:00Z",
+      "azimuth_deg": 162.306951,
+      "elevation_deg": -3.009606,
+      "altitude_deg": -3.009606,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 16:40:00",
+      "timestamp": "2026-11-06T16:40:00Z",
+      "azimuth_deg": 162.222174,
+      "elevation_deg": -3.007398,
+      "altitude_deg": -3.007398,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 16:50:00",
+      "timestamp": "2026-11-06T16:50:00Z",
+      "azimuth_deg": 162.137396,
+      "elevation_deg": -3.00518,
+      "altitude_deg": -3.00518,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 17:00:00",
+      "timestamp": "2026-11-06T17:00:00Z",
+      "azimuth_deg": 162.052619,
+      "elevation_deg": -3.002951,
+      "altitude_deg": -3.002951,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 17:10:00",
+      "timestamp": "2026-11-06T17:10:00Z",
+      "azimuth_deg": 161.967842,
+      "elevation_deg": -3.000713,
+      "altitude_deg": -3.000713,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 17:20:00",
+      "timestamp": "2026-11-06T17:20:00Z",
+      "azimuth_deg": 161.883065,
+      "elevation_deg": -2.998466,
+      "altitude_deg": -2.998466,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 17:30:00",
+      "timestamp": "2026-11-06T17:30:00Z",
+      "azimuth_deg": 161.798288,
+      "elevation_deg": -2.996208,
+      "altitude_deg": -2.996208,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 17:40:00",
+      "timestamp": "2026-11-06T17:40:00Z",
+      "azimuth_deg": 161.713512,
+      "elevation_deg": -2.99394,
+      "altitude_deg": -2.99394,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 17:50:00",
+      "timestamp": "2026-11-06T17:50:00Z",
+      "azimuth_deg": 161.628736,
+      "elevation_deg": -2.991663,
+      "altitude_deg": -2.991663,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:00:00",
+      "timestamp": "2026-11-06T18:00:00Z",
+      "azimuth_deg": 161.543961,
+      "elevation_deg": -2.989376,
+      "altitude_deg": -2.989376,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:10:00",
+      "timestamp": "2026-11-06T18:10:00Z",
+      "azimuth_deg": 161.459186,
+      "elevation_deg": -2.987079,
+      "altitude_deg": -2.987079,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:20:00",
+      "timestamp": "2026-11-06T18:20:00Z",
+      "azimuth_deg": 161.374411,
+      "elevation_deg": -2.984772,
+      "altitude_deg": -2.984772,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:30:00",
+      "timestamp": "2026-11-06T18:30:00Z",
+      "azimuth_deg": 161.289636,
+      "elevation_deg": -2.982456,
+      "altitude_deg": -2.982456,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:40:00",
+      "timestamp": "2026-11-06T18:40:00Z",
+      "azimuth_deg": 161.204862,
+      "elevation_deg": -2.980129,
+      "altitude_deg": -2.980129,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 18:50:00",
+      "timestamp": "2026-11-06T18:50:00Z",
+      "azimuth_deg": 161.120088,
+      "elevation_deg": -2.977793,
+      "altitude_deg": -2.977793,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 19:00:00",
+      "timestamp": "2026-11-06T19:00:00Z",
+      "azimuth_deg": 161.035314,
+      "elevation_deg": -2.975447,
+      "altitude_deg": -2.975447,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 19:10:00",
+      "timestamp": "2026-11-06T19:10:00Z",
+      "azimuth_deg": 160.95054,
+      "elevation_deg": -2.973092,
+      "altitude_deg": -2.973092,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 19:20:00",
+      "timestamp": "2026-11-06T19:20:00Z",
+      "azimuth_deg": 160.865767,
+      "elevation_deg": -2.970726,
+      "altitude_deg": -2.970726,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 19:30:00",
+      "timestamp": "2026-11-06T19:30:00Z",
+      "azimuth_deg": 160.780995,
+      "elevation_deg": -2.968351,
+      "altitude_deg": -2.968351,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 19:40:00",
+      "timestamp": "2026-11-06T19:40:00Z",
+      "azimuth_deg": 160.696222,
+      "elevation_deg": -2.965966,
+      "altitude_deg": -2.965966,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 19:50:00",
+      "timestamp": "2026-11-06T19:50:00Z",
+      "azimuth_deg": 160.61145,
+      "elevation_deg": -2.963571,
+      "altitude_deg": -2.963571,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 20:00:00",
+      "timestamp": "2026-11-06T20:00:00Z",
+      "azimuth_deg": 160.526678,
+      "elevation_deg": -2.961166,
+      "altitude_deg": -2.961166,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 20:10:00",
+      "timestamp": "2026-11-06T20:10:00Z",
+      "azimuth_deg": 160.441907,
+      "elevation_deg": -2.958752,
+      "altitude_deg": -2.958752,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 20:20:00",
+      "timestamp": "2026-11-06T20:20:00Z",
+      "azimuth_deg": 160.357136,
+      "elevation_deg": -2.956328,
+      "altitude_deg": -2.956328,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 20:30:00",
+      "timestamp": "2026-11-06T20:30:00Z",
+      "azimuth_deg": 160.272365,
+      "elevation_deg": -2.953894,
+      "altitude_deg": -2.953894,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 20:40:00",
+      "timestamp": "2026-11-06T20:40:00Z",
+      "azimuth_deg": 160.187595,
+      "elevation_deg": -2.951451,
+      "altitude_deg": -2.951451,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 20:50:00",
+      "timestamp": "2026-11-06T20:50:00Z",
+      "azimuth_deg": 160.102824,
+      "elevation_deg": -2.948997,
+      "altitude_deg": -2.948997,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 21:00:00",
+      "timestamp": "2026-11-06T21:00:00Z",
+      "azimuth_deg": 160.018055,
+      "elevation_deg": -2.946534,
+      "altitude_deg": -2.946534,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 21:10:00",
+      "timestamp": "2026-11-06T21:10:00Z",
+      "azimuth_deg": 159.933285,
+      "elevation_deg": -2.944062,
+      "altitude_deg": -2.944062,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 21:20:00",
+      "timestamp": "2026-11-06T21:20:00Z",
+      "azimuth_deg": 159.848516,
+      "elevation_deg": -2.941579,
+      "altitude_deg": -2.941579,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 21:30:00",
+      "timestamp": "2026-11-06T21:30:00Z",
+      "azimuth_deg": 159.763747,
+      "elevation_deg": -2.939087,
+      "altitude_deg": -2.939087,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 21:40:00",
+      "timestamp": "2026-11-06T21:40:00Z",
+      "azimuth_deg": 159.678979,
+      "elevation_deg": -2.936585,
+      "altitude_deg": -2.936585,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 21:50:00",
+      "timestamp": "2026-11-06T21:50:00Z",
+      "azimuth_deg": 159.594211,
+      "elevation_deg": -2.934074,
+      "altitude_deg": -2.934074,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 22:00:00",
+      "timestamp": "2026-11-06T22:00:00Z",
+      "azimuth_deg": 159.509443,
+      "elevation_deg": -2.931553,
+      "altitude_deg": -2.931553,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 22:10:00",
+      "timestamp": "2026-11-06T22:10:00Z",
+      "azimuth_deg": 159.424676,
+      "elevation_deg": -2.929022,
+      "altitude_deg": -2.929022,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 22:20:00",
+      "timestamp": "2026-11-06T22:20:00Z",
+      "azimuth_deg": 159.339909,
+      "elevation_deg": -2.926481,
+      "altitude_deg": -2.926481,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 22:30:00",
+      "timestamp": "2026-11-06T22:30:00Z",
+      "azimuth_deg": 159.255142,
+      "elevation_deg": -2.923931,
+      "altitude_deg": -2.923931,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 22:40:00",
+      "timestamp": "2026-11-06T22:40:00Z",
+      "azimuth_deg": 159.170376,
+      "elevation_deg": -2.921371,
+      "altitude_deg": -2.921371,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 22:50:00",
+      "timestamp": "2026-11-06T22:50:00Z",
+      "azimuth_deg": 159.08561,
+      "elevation_deg": -2.918801,
+      "altitude_deg": -2.918801,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 23:00:00",
+      "timestamp": "2026-11-06T23:00:00Z",
+      "azimuth_deg": 159.000844,
+      "elevation_deg": -2.916222,
+      "altitude_deg": -2.916222,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 23:10:00",
+      "timestamp": "2026-11-06T23:10:00Z",
+      "azimuth_deg": 158.916079,
+      "elevation_deg": -2.913633,
+      "altitude_deg": -2.913633,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 23:20:00",
+      "timestamp": "2026-11-06T23:20:00Z",
+      "azimuth_deg": 158.831314,
+      "elevation_deg": -2.911034,
+      "altitude_deg": -2.911034,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 23:30:00",
+      "timestamp": "2026-11-06T23:30:00Z",
+      "azimuth_deg": 158.74655,
+      "elevation_deg": -2.908426,
+      "altitude_deg": -2.908426,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 23:40:00",
+      "timestamp": "2026-11-06T23:40:00Z",
+      "azimuth_deg": 158.661786,
+      "elevation_deg": -2.905808,
+      "altitude_deg": -2.905808,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-06 23:50:00",
+      "timestamp": "2026-11-06T23:50:00Z",
+      "azimuth_deg": 158.577022,
+      "elevation_deg": -2.903181,
+      "altitude_deg": -2.903181,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:00:00",
+      "timestamp": "2026-11-07T00:00:00Z",
+      "azimuth_deg": 158.492258,
+      "elevation_deg": -2.900544,
+      "altitude_deg": -2.900544,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:10:00",
+      "timestamp": "2026-11-07T00:10:00Z",
+      "azimuth_deg": 158.407495,
+      "elevation_deg": -2.897897,
+      "altitude_deg": -2.897897,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:20:00",
+      "timestamp": "2026-11-07T00:20:00Z",
+      "azimuth_deg": 158.322733,
+      "elevation_deg": -2.895241,
+      "altitude_deg": -2.895241,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:30:00",
+      "timestamp": "2026-11-07T00:30:00Z",
+      "azimuth_deg": 158.237971,
+      "elevation_deg": -2.892575,
+      "altitude_deg": -2.892575,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:40:00",
+      "timestamp": "2026-11-07T00:40:00Z",
+      "azimuth_deg": 158.153209,
+      "elevation_deg": -2.889899,
+      "altitude_deg": -2.889899,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 00:50:00",
+      "timestamp": "2026-11-07T00:50:00Z",
+      "azimuth_deg": 158.068447,
+      "elevation_deg": -2.887214,
+      "altitude_deg": -2.887214,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 01:00:00",
+      "timestamp": "2026-11-07T01:00:00Z",
+      "azimuth_deg": 157.983686,
+      "elevation_deg": -2.884519,
+      "altitude_deg": -2.884519,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 01:10:00",
+      "timestamp": "2026-11-07T01:10:00Z",
+      "azimuth_deg": 157.898925,
+      "elevation_deg": -2.881815,
+      "altitude_deg": -2.881815,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 01:20:00",
+      "timestamp": "2026-11-07T01:20:00Z",
+      "azimuth_deg": 157.814165,
+      "elevation_deg": -2.879101,
+      "altitude_deg": -2.879101,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 01:30:00",
+      "timestamp": "2026-11-07T01:30:00Z",
+      "azimuth_deg": 157.729405,
+      "elevation_deg": -2.876377,
+      "altitude_deg": -2.876377,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 01:40:00",
+      "timestamp": "2026-11-07T01:40:00Z",
+      "azimuth_deg": 157.644646,
+      "elevation_deg": -2.873644,
+      "altitude_deg": -2.873644,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 01:50:00",
+      "timestamp": "2026-11-07T01:50:00Z",
+      "azimuth_deg": 157.559886,
+      "elevation_deg": -2.870902,
+      "altitude_deg": -2.870902,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 02:00:00",
+      "timestamp": "2026-11-07T02:00:00Z",
+      "azimuth_deg": 157.475128,
+      "elevation_deg": -2.86815,
+      "altitude_deg": -2.86815,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 02:10:00",
+      "timestamp": "2026-11-07T02:10:00Z",
+      "azimuth_deg": 157.390369,
+      "elevation_deg": -2.865388,
+      "altitude_deg": -2.865388,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 02:20:00",
+      "timestamp": "2026-11-07T02:20:00Z",
+      "azimuth_deg": 157.305611,
+      "elevation_deg": -2.862617,
+      "altitude_deg": -2.862617,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 02:30:00",
+      "timestamp": "2026-11-07T02:30:00Z",
+      "azimuth_deg": 157.220854,
+      "elevation_deg": -2.859836,
+      "altitude_deg": -2.859836,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 02:40:00",
+      "timestamp": "2026-11-07T02:40:00Z",
+      "azimuth_deg": 157.136097,
+      "elevation_deg": -2.857045,
+      "altitude_deg": -2.857045,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 02:50:00",
+      "timestamp": "2026-11-07T02:50:00Z",
+      "azimuth_deg": 157.05134,
+      "elevation_deg": -2.854246,
+      "altitude_deg": -2.854246,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 03:00:00",
+      "timestamp": "2026-11-07T03:00:00Z",
+      "azimuth_deg": 156.966583,
+      "elevation_deg": -2.851436,
+      "altitude_deg": -2.851436,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 03:10:00",
+      "timestamp": "2026-11-07T03:10:00Z",
+      "azimuth_deg": 156.881828,
+      "elevation_deg": -2.848617,
+      "altitude_deg": -2.848617,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 03:20:00",
+      "timestamp": "2026-11-07T03:20:00Z",
+      "azimuth_deg": 156.797072,
+      "elevation_deg": -2.845789,
+      "altitude_deg": -2.845789,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 03:30:00",
+      "timestamp": "2026-11-07T03:30:00Z",
+      "azimuth_deg": 156.712317,
+      "elevation_deg": -2.842951,
+      "altitude_deg": -2.842951,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 03:40:00",
+      "timestamp": "2026-11-07T03:40:00Z",
+      "azimuth_deg": 156.627562,
+      "elevation_deg": -2.840104,
+      "altitude_deg": -2.840104,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 03:50:00",
+      "timestamp": "2026-11-07T03:50:00Z",
+      "azimuth_deg": 156.542808,
+      "elevation_deg": -2.837247,
+      "altitude_deg": -2.837247,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 04:00:00",
+      "timestamp": "2026-11-07T04:00:00Z",
+      "azimuth_deg": 156.458054,
+      "elevation_deg": -2.83438,
+      "altitude_deg": -2.83438,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 04:10:00",
+      "timestamp": "2026-11-07T04:10:00Z",
+      "azimuth_deg": 156.3733,
+      "elevation_deg": -2.831505,
+      "altitude_deg": -2.831505,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 04:20:00",
+      "timestamp": "2026-11-07T04:20:00Z",
+      "azimuth_deg": 156.288547,
+      "elevation_deg": -2.828619,
+      "altitude_deg": -2.828619,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 04:30:00",
+      "timestamp": "2026-11-07T04:30:00Z",
+      "azimuth_deg": 156.203795,
+      "elevation_deg": -2.825725,
+      "altitude_deg": -2.825725,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 04:40:00",
+      "timestamp": "2026-11-07T04:40:00Z",
+      "azimuth_deg": 156.119043,
+      "elevation_deg": -2.82282,
+      "altitude_deg": -2.82282,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 04:50:00",
+      "timestamp": "2026-11-07T04:50:00Z",
+      "azimuth_deg": 156.034291,
+      "elevation_deg": -2.819907,
+      "altitude_deg": -2.819907,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 05:00:00",
+      "timestamp": "2026-11-07T05:00:00Z",
+      "azimuth_deg": 155.949539,
+      "elevation_deg": -2.816984,
+      "altitude_deg": -2.816984,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 05:10:00",
+      "timestamp": "2026-11-07T05:10:00Z",
+      "azimuth_deg": 155.864789,
+      "elevation_deg": -2.814051,
+      "altitude_deg": -2.814051,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 05:20:00",
+      "timestamp": "2026-11-07T05:20:00Z",
+      "azimuth_deg": 155.780038,
+      "elevation_deg": -2.811109,
+      "altitude_deg": -2.811109,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 05:30:00",
+      "timestamp": "2026-11-07T05:30:00Z",
+      "azimuth_deg": 155.695288,
+      "elevation_deg": -2.808158,
+      "altitude_deg": -2.808158,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 05:40:00",
+      "timestamp": "2026-11-07T05:40:00Z",
+      "azimuth_deg": 155.610538,
+      "elevation_deg": -2.805197,
+      "altitude_deg": -2.805197,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 05:50:00",
+      "timestamp": "2026-11-07T05:50:00Z",
+      "azimuth_deg": 155.525789,
+      "elevation_deg": -2.802227,
+      "altitude_deg": -2.802227,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:00:00",
+      "timestamp": "2026-11-07T06:00:00Z",
+      "azimuth_deg": 155.44104,
+      "elevation_deg": -2.799247,
+      "altitude_deg": -2.799247,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:10:00",
+      "timestamp": "2026-11-07T06:10:00Z",
+      "azimuth_deg": 155.356292,
+      "elevation_deg": -2.796258,
+      "altitude_deg": -2.796258,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:20:00",
+      "timestamp": "2026-11-07T06:20:00Z",
+      "azimuth_deg": 155.271544,
+      "elevation_deg": -2.79326,
+      "altitude_deg": -2.79326,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:30:00",
+      "timestamp": "2026-11-07T06:30:00Z",
+      "azimuth_deg": 155.186797,
+      "elevation_deg": -2.790252,
+      "altitude_deg": -2.790252,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:40:00",
+      "timestamp": "2026-11-07T06:40:00Z",
+      "azimuth_deg": 155.10205,
+      "elevation_deg": -2.787235,
+      "altitude_deg": -2.787235,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 06:50:00",
+      "timestamp": "2026-11-07T06:50:00Z",
+      "azimuth_deg": 155.017303,
+      "elevation_deg": -2.784208,
+      "altitude_deg": -2.784208,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 07:00:00",
+      "timestamp": "2026-11-07T07:00:00Z",
+      "azimuth_deg": 154.932557,
+      "elevation_deg": -2.781172,
+      "altitude_deg": -2.781172,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 07:10:00",
+      "timestamp": "2026-11-07T07:10:00Z",
+      "azimuth_deg": 154.847811,
+      "elevation_deg": -2.778127,
+      "altitude_deg": -2.778127,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 07:20:00",
+      "timestamp": "2026-11-07T07:20:00Z",
+      "azimuth_deg": 154.763066,
+      "elevation_deg": -2.775072,
+      "altitude_deg": -2.775072,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 07:30:00",
+      "timestamp": "2026-11-07T07:30:00Z",
+      "azimuth_deg": 154.678322,
+      "elevation_deg": -2.772008,
+      "altitude_deg": -2.772008,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 07:40:00",
+      "timestamp": "2026-11-07T07:40:00Z",
+      "azimuth_deg": 154.593577,
+      "elevation_deg": -2.768935,
+      "altitude_deg": -2.768935,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 07:50:00",
+      "timestamp": "2026-11-07T07:50:00Z",
+      "azimuth_deg": 154.508833,
+      "elevation_deg": -2.765852,
+      "altitude_deg": -2.765852,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 08:00:00",
+      "timestamp": "2026-11-07T08:00:00Z",
+      "azimuth_deg": 154.42409,
+      "elevation_deg": -2.76276,
+      "altitude_deg": -2.76276,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 08:10:00",
+      "timestamp": "2026-11-07T08:10:00Z",
+      "azimuth_deg": 154.339347,
+      "elevation_deg": -2.759659,
+      "altitude_deg": -2.759659,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 08:20:00",
+      "timestamp": "2026-11-07T08:20:00Z",
+      "azimuth_deg": 154.254605,
+      "elevation_deg": -2.756548,
+      "altitude_deg": -2.756548,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 08:30:00",
+      "timestamp": "2026-11-07T08:30:00Z",
+      "azimuth_deg": 154.169863,
+      "elevation_deg": -2.753428,
+      "altitude_deg": -2.753428,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 08:40:00",
+      "timestamp": "2026-11-07T08:40:00Z",
+      "azimuth_deg": 154.085121,
+      "elevation_deg": -2.750299,
+      "altitude_deg": -2.750299,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 08:50:00",
+      "timestamp": "2026-11-07T08:50:00Z",
+      "azimuth_deg": 154.00038,
+      "elevation_deg": -2.747161,
+      "altitude_deg": -2.747161,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 09:00:00",
+      "timestamp": "2026-11-07T09:00:00Z",
+      "azimuth_deg": 153.915639,
+      "elevation_deg": -2.744013,
+      "altitude_deg": -2.744013,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 09:10:00",
+      "timestamp": "2026-11-07T09:10:00Z",
+      "azimuth_deg": 153.830899,
+      "elevation_deg": -2.740856,
+      "altitude_deg": -2.740856,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 09:20:00",
+      "timestamp": "2026-11-07T09:20:00Z",
+      "azimuth_deg": 153.74616,
+      "elevation_deg": -2.73769,
+      "altitude_deg": -2.73769,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 09:30:00",
+      "timestamp": "2026-11-07T09:30:00Z",
+      "azimuth_deg": 153.66142,
+      "elevation_deg": -2.734514,
+      "altitude_deg": -2.734514,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 09:40:00",
+      "timestamp": "2026-11-07T09:40:00Z",
+      "azimuth_deg": 153.576682,
+      "elevation_deg": -2.731329,
+      "altitude_deg": -2.731329,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 09:50:00",
+      "timestamp": "2026-11-07T09:50:00Z",
+      "azimuth_deg": 153.491943,
+      "elevation_deg": -2.728135,
+      "altitude_deg": -2.728135,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 10:00:00",
+      "timestamp": "2026-11-07T10:00:00Z",
+      "azimuth_deg": 153.407206,
+      "elevation_deg": -2.724932,
+      "altitude_deg": -2.724932,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 10:10:00",
+      "timestamp": "2026-11-07T10:10:00Z",
+      "azimuth_deg": 153.322468,
+      "elevation_deg": -2.721719,
+      "altitude_deg": -2.721719,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 10:20:00",
+      "timestamp": "2026-11-07T10:20:00Z",
+      "azimuth_deg": 153.237731,
+      "elevation_deg": -2.718497,
+      "altitude_deg": -2.718497,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 10:30:00",
+      "timestamp": "2026-11-07T10:30:00Z",
+      "azimuth_deg": 153.152995,
+      "elevation_deg": -2.715266,
+      "altitude_deg": -2.715266,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 10:40:00",
+      "timestamp": "2026-11-07T10:40:00Z",
+      "azimuth_deg": 153.068259,
+      "elevation_deg": -2.712026,
+      "altitude_deg": -2.712026,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 10:50:00",
+      "timestamp": "2026-11-07T10:50:00Z",
+      "azimuth_deg": 152.983524,
+      "elevation_deg": -2.708777,
+      "altitude_deg": -2.708777,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 11:00:00",
+      "timestamp": "2026-11-07T11:00:00Z",
+      "azimuth_deg": 152.898789,
+      "elevation_deg": -2.705518,
+      "altitude_deg": -2.705518,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 11:10:00",
+      "timestamp": "2026-11-07T11:10:00Z",
+      "azimuth_deg": 152.814055,
+      "elevation_deg": -2.70225,
+      "altitude_deg": -2.70225,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 11:20:00",
+      "timestamp": "2026-11-07T11:20:00Z",
+      "azimuth_deg": 152.729321,
+      "elevation_deg": -2.698973,
+      "altitude_deg": -2.698973,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 11:30:00",
+      "timestamp": "2026-11-07T11:30:00Z",
+      "azimuth_deg": 152.644587,
+      "elevation_deg": -2.695687,
+      "altitude_deg": -2.695687,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 11:40:00",
+      "timestamp": "2026-11-07T11:40:00Z",
+      "azimuth_deg": 152.559854,
+      "elevation_deg": -2.692392,
+      "altitude_deg": -2.692392,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 11:50:00",
+      "timestamp": "2026-11-07T11:50:00Z",
+      "azimuth_deg": 152.475122,
+      "elevation_deg": -2.689087,
+      "altitude_deg": -2.689087,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    },
+    {
+      "raw_time": "2026-Nov-07 12:00:00",
+      "timestamp": "2026-11-07T12:00:00Z",
+      "azimuth_deg": 152.39039,
+      "elevation_deg": -2.685773,
+      "altitude_deg": -2.685773,
+      "visible": false,
+      "solar_presence": null,
+      "interfering_presence": "i"
+    }
+  ]
+}

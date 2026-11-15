@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+# Recorded NASA bytes must keep their manifest hashes, including on Windows.
+/docs/validation-step13/** -text

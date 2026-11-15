@@ -1,0 +1,342 @@
+{
+  "nobile36": {
+    "input": {
+      "latitude": -85.25,
+      "longitude": 53.5,
+      "start_time": "2026-11-06T00:00:00Z",
+      "stop_time": "2026-11-07T12:00:00Z",
+      "step_size": "1h",
+      "observer_height_m": 2.0,
+      "horizon_azimuth_step_deg": 1.0,
+      "horizon_max_distance_km": 50.0
+    },
+    "diagnostics": {
+      "site": {
+        "latitude": -85.25,
+        "longitude": 53.5,
+        "ground_elevation_m": 826.02,
+        "observer_height_m": 2.0,
+        "total_altitude_m": 828.02,
+        "reference_frame": "MEAN_ME (DE421 surface coordinates; LOLA terrain; DE441 ephemerides)",
+        "datum": "Moon (2015) - Sphere, R=1737.4 km"
+      },
+      "time_range": {
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-07T12:00:00Z",
+        "requested_start_time": "2026-11-06T00:00:00Z",
+        "requested_stop_time": "2026-11-07T12:00:00Z",
+        "step_size": "1h",
+        "total_points": 37,
+        "elapsed_hours": 36.0,
+        "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+      },
+      "earth": {
+        "summary": {
+          "total_visible_hours": 0.0,
+          "total_blocked_hours": 36.0,
+          "total_interval_hours": 36.0,
+          "visibility_percentage": 0.0,
+          "full_disk_visible_hours": 0.0,
+          "partial_limb_hours": 0.0,
+          "fully_blocked_hours": 36.0,
+          "window_count": 0,
+          "longest_window_hours": 0.0,
+          "longest_blackout_hours": 36.0,
+          "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+          "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+          "windows": []
+        },
+        "elevation_deg": [
+          -2.6768,
+          -1.1892
+        ],
+        "azimuth_deg": [
+          311.8177,
+          312.2008
+        ],
+        "horizon_elevation_deg": [
+          7.66661976,
+          7.681507740000001
+        ],
+        "clearance_deg": [
+          -10.35830774,
+          -8.85581976
+        ],
+        "disk_counts": {
+          "FULLY_VISIBLE": 0,
+          "PARTIAL_LIMB": 0,
+          "FULLY_BLOCKED": 37
+        }
+      },
+      "sun": {
+        "summary": {
+          "total_visible_hours": 0.0,
+          "total_blocked_hours": 36.0,
+          "total_interval_hours": 36.0,
+          "visibility_percentage": 0.0,
+          "full_disk_visible_hours": 0.0,
+          "partial_limb_hours": 0.0,
+          "fully_blocked_hours": 36.0,
+          "window_count": 0,
+          "longest_window_hours": 0.0,
+          "longest_blackout_hours": 36.0,
+          "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+          "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+          "windows": []
+        },
+        "elevation_deg": [
+          -3.1788,
+          -2.6858
+        ],
+        "azimuth_deg": [
+          152.3904,
+          170.701
+        ],
+        "horizon_elevation_deg": [
+          -0.0471,
+          2.3699
+        ],
+        "clearance_deg": [
+          -5.5487,
+          -2.6387
+        ],
+        "disk_counts": {
+          "FULLY_VISIBLE": 0,
+          "PARTIAL_LIMB": 0,
+          "FULLY_BLOCKED": 37
+        }
+      }
+    }
+  },
+  "degerlache492": {
+    "input": {
+      "latitude": -88.5,
+      "longitude": -88.3,
+      "start_time": "2026-11-06T00:00:00Z",
+      "stop_time": "2026-11-26T12:00:00Z",
+      "step_size": "1h",
+      "observer_height_m": 2.0,
+      "horizon_azimuth_step_deg": 1.0,
+      "horizon_max_distance_km": 50.0
+    },
+    "diagnostics": {
+      "site": {
+        "latitude": -88.5,
+        "longitude": -88.3,
+        "ground_elevation_m": -1103.41,
+        "observer_height_m": 2.0,
+        "total_altitude_m": -1101.41,
+        "reference_frame": "MEAN_ME (DE421 surface coordinates; LOLA terrain; DE441 ephemerides)",
+        "datum": "Moon (2015) - Sphere, R=1737.4 km"
+      },
+      "time_range": {
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-26T12:00:00Z",
+        "requested_start_time": "2026-11-06T00:00:00Z",
+        "requested_stop_time": "2026-11-26T12:00:00Z",
+        "step_size": "1h",
+        "total_points": 493,
+        "elapsed_hours": 492.0,
+        "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+      },
+      "earth": {
+        "summary": {
+          "total_visible_hours": 0.0,
+          "total_blocked_hours": 492.0,
+          "total_interval_hours": 492.0,
+          "visibility_percentage": 0.0,
+          "full_disk_visible_hours": 0.0,
+          "partial_limb_hours": 0.0,
+          "fully_blocked_hours": 492.0,
+          "window_count": 0,
+          "longest_window_hours": 0.0,
+          "longest_blackout_hours": 492.0,
+          "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+          "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+          "windows": []
+        },
+        "elevation_deg": [
+          -6.8567,
+          6.3879
+        ],
+        "azimuth_deg": [
+          81.1518,
+          93.7362
+        ],
+        "horizon_elevation_deg": [
+          8.13630414,
+          9.512439139999998
+        ],
+        "clearance_deg": [
+          -15.6650868,
+          -2.3667448
+        ],
+        "disk_counts": {
+          "FULLY_VISIBLE": 0,
+          "PARTIAL_LIMB": 0,
+          "FULLY_BLOCKED": 493
+        }
+      },
+      "sun": {
+        "summary": {
+          "total_visible_hours": 0.0,
+          "total_blocked_hours": 492.0,
+          "total_interval_hours": 492.0,
+          "visibility_percentage": 0.0,
+          "full_disk_visible_hours": 0.0,
+          "partial_limb_hours": 0.0,
+          "fully_blocked_hours": 492.0,
+          "window_count": 0,
+          "longest_window_hours": 0.0,
+          "longest_blackout_hours": 492.0,
+          "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+          "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+          "windows": []
+        },
+        "elevation_deg": [
+          0.0536,
+          2.5222
+        ],
+        "azimuth_deg": [
+          63.0567,
+          312.4733
+        ],
+        "horizon_elevation_deg": [
+          3.2636835999999994,
+          16.8216
+        ],
+        "clearance_deg": [
+          -16.4733,
+          -1.34717471
+        ],
+        "disk_counts": {
+          "FULLY_VISIBLE": 0,
+          "PARTIAL_LIMB": 0,
+          "FULLY_BLOCKED": 493
+        }
+      }
+    }
+  },
+  "haworth492": {
+    "input": {
+      "latitude": -87.87,
+      "longitude": -5.1,
+      "start_time": "2026-11-06T00:00:00Z",
+      "stop_time": "2026-11-26T12:00:00Z",
+      "step_size": "1h",
+      "observer_height_m": 2.0,
+      "horizon_azimuth_step_deg": 1.0,
+      "horizon_max_distance_km": 50.0
+    },
+    "diagnostics": {
+      "site": {
+        "latitude": -87.87,
+        "longitude": -5.1,
+        "ground_elevation_m": -3484.79,
+        "observer_height_m": 2.0,
+        "total_altitude_m": -3482.79,
+        "reference_frame": "MEAN_ME (DE421 surface coordinates; LOLA terrain; DE441 ephemerides)",
+        "datum": "Moon (2015) - Sphere, R=1737.4 km"
+      },
+      "time_range": {
+        "start_time": "2026-11-06T00:00:00Z",
+        "stop_time": "2026-11-26T12:00:00Z",
+        "requested_start_time": "2026-11-06T00:00:00Z",
+        "requested_stop_time": "2026-11-26T12:00:00Z",
+        "step_size": "1h",
+        "total_points": 493,
+        "elapsed_hours": 492.0,
+        "time_step_precision": "Linear crossing estimates from 1.00h sampling; short events may be missed."
+      },
+      "earth": {
+        "summary": {
+          "total_visible_hours": 137.433,
+          "total_blocked_hours": 354.567,
+          "total_interval_hours": 492.0,
+          "visibility_percentage": 27.93,
+          "full_disk_visible_hours": 102.8386,
+          "partial_limb_hours": 53.4623,
+          "fully_blocked_hours": 335.6991,
+          "window_count": 1,
+          "longest_window_hours": 137.433,
+          "longest_blackout_hours": 354.567,
+          "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+          "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+          "windows": [
+            {
+              "window_index": 1,
+              "start_time": "2026-11-20T18:34:01Z",
+              "end_time": "2026-11-26T12:00:00Z",
+              "duration_hours": 137.433,
+              "first_sample_time": "2026-11-20T19:00:00Z",
+              "last_sample_time": "2026-11-26T12:00:00Z",
+              "sample_count": 138,
+              "peak_elevation_deg": 8.3843,
+              "min_clearance_deg": 0.0202,
+              "max_clearance_deg": 1.7364
+            }
+          ]
+        },
+        "elevation_deg": [
+          -4.7071,
+          8.3843
+        ],
+        "azimuth_deg": [
+          0.0176,
+          359.981
+        ],
+        "horizon_elevation_deg": [
+          6.2347920399999985,
+          6.90805462
+        ],
+        "clearance_deg": [
+          -11.51461632,
+          1.73638864
+        ],
+        "disk_counts": {
+          "FULLY_VISIBLE": 103,
+          "PARTIAL_LIMB": 54,
+          "FULLY_BLOCKED": 336
+        }
+      },
+      "sun": {
+        "summary": {
+          "total_visible_hours": 0.0,
+          "total_blocked_hours": 492.0,
+          "total_interval_hours": 492.0,
+          "visibility_percentage": 0.0,
+          "full_disk_visible_hours": 0.0,
+          "partial_limb_hours": 0.0,
+          "fully_blocked_hours": 492.0,
+          "window_count": 0,
+          "longest_window_hours": 0.0,
+          "longest_blackout_hours": 492.0,
+          "transition_estimation_method": "Linear clearance root interpolation between adjacent samples.",
+          "sampling_uncertainty_note": "Linear crossing estimates depend on sampling; short events can be missed between samples.",
+          "windows": []
+        },
+        "elevation_deg": [
+          -0.5857,
+          3.6488
+        ],
+        "azimuth_deg": [
+          0.0324,
+          359.5261
+        ],
+        "horizon_elevation_deg": [
+          4.41699658,
+          11.0622976
+        ],
+        "clearance_deg": [
+          -11.17883328,
+          -1.826534
+        ],
+        "disk_counts": {
+          "FULLY_VISIBLE": 0,
+          "PARTIAL_LIMB": 0,
+          "FULLY_BLOCKED": 493
+        }
+      }
+    }
+  }
+}

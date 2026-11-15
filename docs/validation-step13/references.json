@@ -1,0 +1,362 @@
+{
+  "nobile36": {
+    "earth": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'399'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'53.5,-85.25,0.82802'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-07 12:00:00'",
+        "STEP_SIZE": "'18h'",
+        "QUANTITIES": "'4'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'",
+        "APPARENT": "'AIRLESS'",
+        "ANG_FORMAT": "'DEG'",
+        "EXTRA_PREC": "'YES'",
+        "OBJ_DATA": "'YES'"
+      },
+      "values": [
+        {
+          "timestamp": "2026-11-06T00:00:00Z",
+          "reference_azimuth": 312.200795937,
+          "reference_elevation": -1.189156341,
+          "app_azimuth": 312.2008,
+          "app_elevation": -1.1892,
+          "azimuth_difference_deg": 4.063000005771755e-06,
+          "elevation_difference_deg": -4.3659000000140225e-05
+        },
+        {
+          "timestamp": "2026-11-06T18:00:00Z",
+          "reference_azimuth": 312.059517598,
+          "reference_elevation": -2.004361155,
+          "app_azimuth": 312.0595,
+          "app_elevation": -2.0044,
+          "azimuth_difference_deg": -1.759799999945244e-05,
+          "elevation_difference_deg": -3.88450000001761e-05
+        },
+        {
+          "timestamp": "2026-11-07T12:00:00Z",
+          "reference_azimuth": 311.817737508,
+          "reference_elevation": -2.676786565,
+          "app_azimuth": 311.8177,
+          "app_elevation": -2.6768,
+          "azimuth_difference_deg": -3.750799999124865e-05,
+          "elevation_difference_deg": -1.3435000000061592e-05
+        }
+      ],
+      "header": [
+        "Target body name: Earth (399)                     {source: DE441}",
+        "Center body name: Moon (301)                      {source: DE441}",
+        "Start time      : A.D. 2026-Nov-06 00:00:00.0000 UT      ",
+        "Stop  time      : A.D. 2026-Nov-07 12:00:00.0000 UT      ",
+        "Center geodetic : 53.5, -85.25, .82802            {E-lon(deg),Lat(deg),Alt(km)}",
+        "Center pole/equ : MEAN_ME (high precision)        {East-longitude positive}",
+        "Center radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       "
+      ]
+    },
+    "sun": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'10'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'53.5,-85.25,0.82802'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-07 12:00:00'",
+        "STEP_SIZE": "'18h'",
+        "QUANTITIES": "'4'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'",
+        "APPARENT": "'AIRLESS'",
+        "ANG_FORMAT": "'DEG'",
+        "EXTRA_PREC": "'YES'",
+        "OBJ_DATA": "'YES'"
+      },
+      "values": [
+        {
+          "timestamp": "2026-11-06T00:00:00Z",
+          "reference_azimuth": 170.701023503,
+          "reference_elevation": -3.178755265,
+          "app_azimuth": 170.701,
+          "app_elevation": -3.1788,
+          "azimuth_difference_deg": -2.350299999420713e-05,
+          "elevation_difference_deg": -4.473499999990693e-05
+        },
+        {
+          "timestamp": "2026-11-06T18:00:00Z",
+          "reference_azimuth": 161.543960767,
+          "reference_elevation": -2.989376048,
+          "app_azimuth": 161.544,
+          "app_elevation": -2.9894,
+          "azimuth_difference_deg": 3.923300002384167e-05,
+          "elevation_difference_deg": -2.3951999999827223e-05
+        },
+        {
+          "timestamp": "2026-11-07T12:00:00Z",
+          "reference_azimuth": 152.390389961,
+          "reference_elevation": -2.685773446,
+          "app_azimuth": 152.3904,
+          "app_elevation": -2.6858,
+          "azimuth_difference_deg": 1.0038999988637443e-05,
+          "elevation_difference_deg": -2.655400000017849e-05
+        }
+      ],
+      "header": [
+        "Target body name: Sun (10)                        {source: DE441}",
+        "Center body name: Moon (301)                      {source: DE441}",
+        "Start time      : A.D. 2026-Nov-06 00:00:00.0000 UT      ",
+        "Stop  time      : A.D. 2026-Nov-07 12:00:00.0000 UT      ",
+        "Center geodetic : 53.5, -85.25, .82802            {E-lon(deg),Lat(deg),Alt(km)}",
+        "Center pole/equ : MEAN_ME (high precision)        {East-longitude positive}",
+        "Center radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       "
+      ]
+    }
+  },
+  "degerlache492": {
+    "earth": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'399'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-88.3,-88.5,-1.10141'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'4'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'",
+        "APPARENT": "'AIRLESS'",
+        "ANG_FORMAT": "'DEG'",
+        "EXTRA_PREC": "'YES'",
+        "OBJ_DATA": "'YES'"
+      },
+      "values": [
+        {
+          "timestamp": "2026-11-06T00:00:00Z",
+          "reference_azimuth": 93.736231571,
+          "reference_elevation": -4.474269991,
+          "app_azimuth": 93.7362,
+          "app_elevation": -4.4743,
+          "azimuth_difference_deg": -3.157100002226798e-05,
+          "elevation_difference_deg": -3.000900000049711e-05
+        },
+        {
+          "timestamp": "2026-11-16T06:00:00Z",
+          "reference_azimuth": 83.95423253,
+          "reference_elevation": -1.825388343,
+          "app_azimuth": 83.9542,
+          "app_elevation": -1.8254,
+          "azimuth_difference_deg": -3.25299999985873e-05,
+          "elevation_difference_deg": -1.1656999999942741e-05
+        },
+        {
+          "timestamp": "2026-11-26T12:00:00Z",
+          "reference_azimuth": 89.643280043,
+          "reference_elevation": 4.993502044,
+          "app_azimuth": 89.6433,
+          "app_elevation": 4.9935,
+          "azimuth_difference_deg": 1.995700000634315e-05,
+          "elevation_difference_deg": -2.0440000003674186e-06
+        }
+      ],
+      "header": [
+        "Target body name: Earth (399)                     {source: DE441}",
+        "Center body name: Moon (301)                      {source: DE441}",
+        "Start time      : A.D. 2026-Nov-06 00:00:00.0000 UT      ",
+        "Stop  time      : A.D. 2026-Nov-26 12:00:00.0000 UT      ",
+        "Center geodetic : 271.7, -88.5, -1.10141          {E-lon(deg),Lat(deg),Alt(km)}",
+        "Center pole/equ : MEAN_ME (high precision)        {East-longitude positive}",
+        "Center radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       "
+      ]
+    },
+    "sun": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'10'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-88.3,-88.5,-1.10141'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'4'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'",
+        "APPARENT": "'AIRLESS'",
+        "ANG_FORMAT": "'DEG'",
+        "EXTRA_PREC": "'YES'",
+        "OBJ_DATA": "'YES'"
+      },
+      "values": [
+        {
+          "timestamp": "2026-11-06T00:00:00Z",
+          "reference_azimuth": 312.473258598,
+          "reference_elevation": 2.522244797,
+          "app_azimuth": 312.4733,
+          "app_elevation": 2.5222,
+          "azimuth_difference_deg": 4.1402000022117136e-05,
+          "elevation_difference_deg": -4.4796999999707765e-05
+        },
+        {
+          "timestamp": "2026-11-16T06:00:00Z",
+          "reference_azimuth": 187.504199493,
+          "reference_elevation": 0.067620333,
+          "app_azimuth": 187.5042,
+          "app_elevation": 0.0676,
+          "azimuth_difference_deg": 5.07000009974945e-07,
+          "elevation_difference_deg": -2.033300000001126e-05
+        },
+        {
+          "timestamp": "2026-11-26T12:00:00Z",
+          "reference_azimuth": 63.056686938,
+          "reference_elevation": 2.185052755,
+          "app_azimuth": 63.0567,
+          "app_elevation": 2.1851,
+          "azimuth_difference_deg": 1.306199999362434e-05,
+          "elevation_difference_deg": 4.7244999999751514e-05
+        }
+      ],
+      "header": [
+        "Target body name: Sun (10)                        {source: DE441}",
+        "Center body name: Moon (301)                      {source: DE441}",
+        "Start time      : A.D. 2026-Nov-06 00:00:00.0000 UT      ",
+        "Stop  time      : A.D. 2026-Nov-26 12:00:00.0000 UT      ",
+        "Center geodetic : 271.7, -88.5, -1.10141          {E-lon(deg),Lat(deg),Alt(km)}",
+        "Center pole/equ : MEAN_ME (high precision)        {East-longitude positive}",
+        "Center radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       "
+      ]
+    }
+  },
+  "haworth492": {
+    "earth": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'399'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-5.1,-87.87,-3.48279'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'4'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'",
+        "APPARENT": "'AIRLESS'",
+        "ANG_FORMAT": "'DEG'",
+        "EXTRA_PREC": "'YES'",
+        "OBJ_DATA": "'YES'"
+      },
+      "values": [
+        {
+          "timestamp": "2026-11-06T00:00:00Z",
+          "reference_azimuth": 10.624221638,
+          "reference_elevation": -2.281899274,
+          "app_azimuth": 10.6242,
+          "app_elevation": -2.2819,
+          "azimuth_difference_deg": -2.1637999992663026e-05,
+          "elevation_difference_deg": -7.259999996733768e-07
+        },
+        {
+          "timestamp": "2026-11-16T06:00:00Z",
+          "reference_azimuth": 0.797035207,
+          "reference_elevation": 0.147188675,
+          "app_azimuth": 0.797,
+          "app_elevation": 0.1472,
+          "azimuth_difference_deg": -3.520699999626231e-05,
+          "elevation_difference_deg": 1.1325000000006469e-05
+        },
+        {
+          "timestamp": "2026-11-26T12:00:00Z",
+          "reference_azimuth": 6.331039195,
+          "reference_elevation": 7.100867785,
+          "app_azimuth": 6.331,
+          "app_elevation": 7.1009,
+          "azimuth_difference_deg": -3.919499999938125e-05,
+          "elevation_difference_deg": 3.2215000000057614e-05
+        }
+      ],
+      "header": [
+        "Target body name: Earth (399)                     {source: DE441}",
+        "Center body name: Moon (301)                      {source: DE441}",
+        "Start time      : A.D. 2026-Nov-06 00:00:00.0000 UT      ",
+        "Stop  time      : A.D. 2026-Nov-26 12:00:00.0000 UT      ",
+        "Center geodetic : 354.9, -87.87, -3.48279         {E-lon(deg),Lat(deg),Alt(km)}",
+        "Center pole/equ : MEAN_ME (high precision)        {East-longitude positive}",
+        "Center radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       "
+      ]
+    },
+    "sun": {
+      "parameters": {
+        "format": "text",
+        "COMMAND": "'10'",
+        "CENTER": "'coord@301'",
+        "COORD_TYPE": "'GEODETIC'",
+        "SITE_COORD": "'-5.1,-87.87,-3.48279'",
+        "EPHEM_TYPE": "'OBSERVER'",
+        "START_TIME": "'2026-11-06 00:00:00'",
+        "STOP_TIME": "'2026-11-26 12:00:00'",
+        "STEP_SIZE": "'246h'",
+        "QUANTITIES": "'4'",
+        "CSV_FORMAT": "'NO'",
+        "TIME_TYPE": "'UT'",
+        "TIME_DIGITS": "'SECONDS'",
+        "APPARENT": "'AIRLESS'",
+        "ANG_FORMAT": "'DEG'",
+        "EXTRA_PREC": "'YES'",
+        "OBJ_DATA": "'YES'"
+      },
+      "values": [
+        {
+          "timestamp": "2026-11-06T00:00:00Z",
+          "reference_azimuth": 229.289221548,
+          "reference_elevation": 0.119927033,
+          "app_azimuth": 229.2892,
+          "app_elevation": 0.1199,
+          "azimuth_difference_deg": -2.1548000006532675e-05,
+          "elevation_difference_deg": -2.7032999999995755e-05
+        },
+        {
+          "timestamp": "2026-11-16T06:00:00Z",
+          "reference_azimuth": 104.353519096,
+          "reference_elevation": 1.0275165,
+          "app_azimuth": 104.3535,
+          "app_elevation": 1.0275,
+          "azimuth_difference_deg": -1.9096000016816106e-05,
+          "elevation_difference_deg": -1.6499999999863846e-05
+        },
+        {
+          "timestamp": "2026-11-26T12:00:00Z",
+          "reference_azimuth": 339.781420103,
+          "reference_elevation": 3.503843468,
+          "app_azimuth": 339.7814,
+          "app_elevation": 3.5038,
+          "azimuth_difference_deg": -2.0102999997106963e-05,
+          "elevation_difference_deg": -4.3467999999879936e-05
+        }
+      ],
+      "header": [
+        "Target body name: Sun (10)                        {source: DE441}",
+        "Center body name: Moon (301)                      {source: DE441}",
+        "Start time      : A.D. 2026-Nov-06 00:00:00.0000 UT      ",
+        "Stop  time      : A.D. 2026-Nov-26 12:00:00.0000 UT      ",
+        "Center geodetic : 354.9, -87.87, -3.48279         {E-lon(deg),Lat(deg),Alt(km)}",
+        "Center pole/equ : MEAN_ME (high precision)        {East-longitude positive}",
+        "Center radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       "
+      ]
+    }
+  }
+}
